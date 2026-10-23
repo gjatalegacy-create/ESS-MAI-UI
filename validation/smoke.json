@@ -1,0 +1,1942 @@
+{
+  "result": "PASS",
+  "exe_sha256": "6ca8ddf034eba5ed9b6a97f7912f104f2c24775d15507b26065219010c25d7c2",
+  "private_product": "disabled; not invoked",
+  "checks": [
+    {
+      "request": "GET /",
+      "status": 200,
+      "response": "Byte-identical shipped index.html"
+    },
+    {
+      "request": "GET /app.js",
+      "status": 200,
+      "response": "Byte-identical shipped asset"
+    },
+    {
+      "request": "GET /app.css",
+      "status": 200,
+      "response": "Byte-identical shipped asset"
+    },
+    {
+      "request": "POST /api/status",
+      "status": 200,
+      "nodes": 305687,
+      "edges": 954244
+    },
+    {
+      "request": "POST /api/ask",
+      "input": "A është qeni kafshë?",
+      "status": 200,
+      "response": {
+        "data": {
+          "analysis": {
+            "bridge_path": [],
+            "cond_path": [],
+            "focus": {
+              "form_rels": [
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "qen deti",
+                  "other_lang": "sq",
+                  "rel": "/r/IsA"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "qen gjahu",
+                  "other_lang": "sq",
+                  "rel": "/r/IsA"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "qen roje",
+                  "other_lang": "sq",
+                  "rel": "/r/IsA"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "qen stani",
+                  "other_lang": "sq",
+                  "rel": "/r/IsA"
+                },
+                {
+                  "dataset": "/d/wordnet/3.1",
+                  "license": "cc:by/4.0",
+                  "other": "canine",
+                  "other_lang": "en",
+                  "rel": "/r/Synonym"
+                },
+                {
+                  "dataset": "/d/wiktionary/fr",
+                  "license": "cc:by-sa/4.0",
+                  "other": "chien",
+                  "other_lang": null,
+                  "rel": "/r/Synonym"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "dog translations",
+                  "other_lang": "en",
+                  "rel": "/r/Synonym"
+                },
+                {
+                  "dataset": "/d/wiktionary/de",
+                  "license": "cc:by-sa/4.0",
+                  "other": "hund",
+                  "other_lang": null,
+                  "rel": "/r/Synonym"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "qençe",
+                  "other_lang": "sq",
+                  "rel": "/r/RelatedTo"
+                },
+                {
+                  "dataset": "/d/wiktionary/fr",
+                  "license": "cc:by-sa/4.0",
+                  "other": "chien",
+                  "other_lang": null,
+                  "rel": "/r/RelatedTo"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "dog",
+                  "other_lang": "en",
+                  "rel": "/r/RelatedTo"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "kjen",
+                  "other_lang": "sq",
+                  "rel": "/r/EtymologicallyRelatedTo"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "peshkaqen",
+                  "other_lang": "sq",
+                  "rel": "/r/EtymologicallyRelatedTo"
+                },
+                {
+                  "dataset": "/d/wiktionary/en",
+                  "license": "cc:by-sa/4.0",
+                  "other": "canis",
+                  "other_lang": null,
+                  "rel": "/r/EtymologicallyDerivedFrom"
+                },
+                {
+                  "dataset": "/d/emoji",
+                  "license": "cc:by/4.0",
+                  "other": "🐕",
+                  "other_lang": null,
+                  "rel": "/r/SymbolOf"
+                },
+                {
+                  "dataset": "/d/emoji",
+                  "license": "cc:by/4.0",
+                  "other": "🐩",
+                  "other_lang": null,
+                  "rel": "/r/SymbolOf"
+                },
+                {
+                  "dataset": "/d/emoji",
+                  "license": "cc:by/4.0",
+                  "other": "🐶",
+                  "other_lang": null,
+                  "rel": "/r/SymbolOf"
+                }
+              ],
+              "how": "formë e atestuar në UD",
+              "input": "qeni",
+              "lemma": "qen",
+              "senses": [
+                {
+                  "gloss_en": "any of various fissiped mammals with nonretractile claws and typically long muzzles",
+                  "gloss_sq": null,
+                  "key": "s:pwn30:02083346-n",
+                  "label": "si «mishngrënës»",
+                  "labels_en": [
+                    "canine",
+                    "canid"
+                  ],
+                  "labels_sq": [
+                    "qen"
+                  ],
+                  "pos": "emër",
+                  "reason": "ka rrugë hiperonimie drejt objektit",
+                  "score": 0,
+                  "status": "selected",
+                  "synset": "02083346-n",
+                  "via": "Albanet / OMW"
+                }
+              ],
+              "sources_hit": [
+                "WordNet 3.0",
+                "Albanet / OMW",
+                "ConceptNet 5.7",
+                "UD Albanian-STAF"
+              ],
+              "usage_count": 1,
+              "usages": [
+                {
+                  "deprel": "nmod",
+                  "feats": "Case=Abl|Definite=Ind|Gender=Masc|Number=Sing",
+                  "form": "qeni",
+                  "sent_id": "STAF__13",
+                  "source": "UD Albanian-STAF",
+                  "text": "Hadi m'u shfaq atë ditë, kur gatiteshim të dilnim nga shtëpia me Margën për të vajtur në spital dhe unë po ndihesha si lëkurë qeni."
+                }
+              ],
+              "word_key": "w:sq:qen"
+            },
+            "other": {
+              "found": true,
+              "lemma": "kafshë",
+              "senses": 1
+            },
+            "path": [
+              {
+                "edge": 41076,
+                "key": "s:pwn30:02083346-n",
+                "label": "qen",
+                "lang": "sq",
+                "sq": "qen"
+              },
+              {
+                "edge": 40921,
+                "key": "s:pwn30:02075296-n",
+                "label": "mishngrënës",
+                "lang": "sq",
+                "sq": "mishngrënës"
+              },
+              {
+                "edge": 37179,
+                "key": "s:pwn30:01886756-n",
+                "label": "plaçentë",
+                "lang": "sq",
+                "sq": "plaçentë"
+              },
+              {
+                "edge": 36374,
+                "key": "s:pwn30:01861778-n",
+                "label": "gjitar",
+                "lang": "sq",
+                "sq": "gjitar"
+              },
+              {
+                "edge": 28163,
+                "key": "s:pwn30:01471682-n",
+                "label": "vertebror",
+                "lang": "sq",
+                "sq": "vertebror"
+              },
+              {
+                "edge": 28047,
+                "key": "s:pwn30:01466257-n",
+                "label": "kordak",
+                "lang": "sq",
+                "sq": "kordak"
+              },
+              {
+                "edge": null,
+                "key": "s:pwn30:00015388-n",
+                "label": "kafshë",
+                "lang": "sq",
+                "sq": "kafshë"
+              }
+            ]
+          },
+          "core_invariant": true,
+          "emotion": {
+            "clock_ms": 0,
+            "expressive": {
+              "animation": "SPEAK_PULSE",
+              "attention_mass": 10000,
+              "color": "NURA_GOLD",
+              "emphasis": "X_INHERITS_Y",
+              "glow_mass": 6050,
+              "inherited": true,
+              "intensity_mass": 6050,
+              "motion": "FORWARD",
+              "phase": "NURA_SPEAKING",
+              "phase_label": "Nura flet — shprehje e mbështetur nga burimi",
+              "reduced_motion": false,
+              "register": "MEASURED",
+              "spread_mass": 6000,
+              "tempo_ms": 2200,
+              "trust_mass": 6100
+            },
+            "log": [
+              {
+                "at_ms": 0,
+                "cause": "Realized",
+                "from": "SHADOW_VERIFICATION",
+                "rule": "T09 shprehje e realizuar → NURA_SPEAKING",
+                "seq": 4,
+                "to": "NURA_SPEAKING"
+              },
+              {
+                "at_ms": 0,
+                "cause": "Verified(mass=6100)",
+                "from": "QUANTUM_ELIMINATION",
+                "rule": "T05 mbështetje nga burimi → SHADOW_VERIFICATION",
+                "seq": 3,
+                "to": "SHADOW_VERIFICATION"
+              },
+              {
+                "at_ms": 0,
+                "cause": "CandidatesFound(senses=1, sources=4)",
+                "from": "QUANTUM_ELIMINATION",
+                "rule": "T03 ndarja Xi/Yi → kandidatë",
+                "seq": 2,
+                "to": "QUANTUM_ELIMINATION"
+              },
+              {
+                "at_ms": 0,
+                "cause": "Submitted(terms=4)",
+                "from": "LIGHT_COORDINATION",
+                "rule": "T02 i₀ u mor → QUANTUM_ELIMINATION",
+                "seq": 1,
+                "to": "QUANTUM_ELIMINATION"
+              }
+            ]
+          },
+          "emotional_command": {
+            "animation": "SPEAK_PULSE",
+            "color": "NURA_GOLD",
+            "contract_version": 67072,
+            "intensity_mass": 6050,
+            "motion": "FORWARD",
+            "phase": "NURA_SPEAKING",
+            "source": "UI_ESS_MAI_EMOTION_ENGINE",
+            "trace_id": 1,
+            "trust_mass": 6100
+          },
+          "form": "ISA_QUESTION",
+          "input": "A është qeni kafshë?",
+          "plan": {
+            "condition": null,
+            "core": [
+              {
+                "attribution": {
+                  "note": "zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe",
+                  "sources": [
+                    "Albanet / OMW",
+                    "WordNet 3.0"
+                  ]
+                },
+                "claim": {
+                  "context": null,
+                  "obj": "kafshë",
+                  "subj": "qen",
+                  "type": "IsA"
+                },
+                "polarity": "POHIM"
+              }
+            ],
+            "question": null,
+            "user_claim": null,
+            "user_condition": null,
+            "verdict": "ANSWERED"
+          },
+          "realization": {
+            "core": "Po, qeni është kafshë",
+            "forms": [
+              {
+                "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                "surface": "qeni"
+              },
+              {
+                "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                "surface": "kafshë"
+              }
+            ],
+            "frame_close": ".",
+            "frame_open": "",
+            "full": "Po, qeni është kafshë.",
+            "oratoria": {
+              "baraspesha": 286,
+              "cursus": null,
+              "fryma": 875,
+              "gjithsej": 763,
+              "kadenca": 850,
+              "ritmi": 818,
+              "rritja": 1000
+            },
+            "question": null,
+            "register": "MEASURED",
+            "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+          },
+          "registers": [
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "",
+              "full": "Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "NEUTRAL",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            },
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "",
+              "full": "Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "ASSERTIVE",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            },
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "",
+              "full": "Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "MEASURED",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            },
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "",
+              "full": "Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "QUESTIONING",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            },
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "",
+              "full": "Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "WITNESSING",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            },
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "",
+              "full": "Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "CORRECTIVE",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            },
+            {
+              "core": "Po, qeni është kafshë",
+              "forms": [
+                {
+                  "origin": "formë e atestuar (Leksiku gramatikor shqip (uniparser) · uniparser)",
+                  "surface": "qeni"
+                },
+                {
+                  "origin": "emërore e pashquar = forma e lemës (rregulli R-P1)",
+                  "surface": "kafshë"
+                }
+              ],
+              "frame_close": ".",
+              "frame_open": "[teknik] ",
+              "full": "[teknik] Po, qeni është kafshë.",
+              "oratoria": {
+                "baraspesha": 286,
+                "cursus": null,
+                "fryma": 875,
+                "gjithsej": 763,
+                "kadenca": 850,
+                "ritmi": 818,
+                "rritja": 1000
+              },
+              "question": null,
+              "register": "TECHNICAL",
+              "sources": "Burimi: Albanet / OMW dhe WordNet 3.0 — zinxhir hiperonimesh 6 hapa; 0 nyje pa lemë shqipe"
+            }
+          ],
+          "signature": "Signature { claims: [(\"isa(qen,kafshë)\", Pos)], condition: None, user_claim: None, verdict: Answered, contexts: [] }",
+          "steps": [
+            {
+              "code": "I0",
+              "edges": [],
+              "event": "Submitted(terms=4)",
+              "expressive": {
+                "animation": "ELIMINATION_ORBIT",
+                "attention_mass": 10000,
+                "color": "QUANTUM_BLUE",
+                "emphasis": "MEANING_SIDE",
+                "glow_mass": 4750,
+                "inherited": true,
+                "intensity_mass": 4750,
+                "motion": "ROTATE",
+                "phase": "QUANTUM_ELIMINATION",
+                "phase_label": "eliminim — kandidatët po ndahen dhe po bien",
+                "reduced_motion": false,
+                "register": "NEUTRAL",
+                "spread_mass": 9000,
+                "tempo_ms": 900,
+                "trust_mass": 2500
+              },
+              "label": "i₀ = «qeni» → lemë «qen» (formë e atestuar në UD)",
+              "nodes": [
+                120221
+              ],
+              "transition": {
+                "at_ms": 0,
+                "cause": "Submitted(terms=4)",
+                "from": "LIGHT_COORDINATION",
+                "rule": "T02 i₀ u mor → QUANTUM_ELIMINATION",
+                "seq": 1,
+                "to": "QUANTUM_ELIMINATION"
+              }
+            },
+            {
+              "code": "SPLIT",
+              "edges": [],
+              "event": "CandidatesFound(senses=1, sources=4)",
+              "expressive": {
+                "animation": "ELIMINATION_ORBIT",
+                "attention_mass": 10000,
+                "color": "QUANTUM_BLUE",
+                "emphasis": "MEANING_SIDE",
+                "glow_mass": 7250,
+                "inherited": true,
+                "intensity_mass": 7250,
+                "motion": "ROTATE",
+                "phase": "QUANTUM_ELIMINATION",
+                "phase_label": "eliminim — kandidatët po ndahen dhe po bien",
+                "reduced_motion": false,
+                "register": "NEUTRAL",
+                "spread_mass": 9000,
+                "tempo_ms": 900,
+                "trust_mass": 7500
+              },
+              "label": "ndarja: Yi = 1 kuptime (Albanet→WordNet) · Xi = 1 përdorime UD + 17 marrëdhënie forme (ConceptNet)",
+              "nodes": [
+                19379,
+                305389,
+                142955,
+                142955,
+                142955,
+                142955,
+                204275,
+                130473,
+                130473,
+                130473,
+                142955,
+                142955,
+                142955,
+                130473,
+                130473,
+                130473,
+                130473,
+                130473,
+                130473
+              ],
+              "transition": {
+                "at_ms": 0,
+                "cause": "CandidatesFound(senses=1, sources=4)",
+                "from": "QUANTUM_ELIMINATION",
+                "rule": "T03 ndarja Xi/Yi → kandidatë",
+                "seq": 2,
+                "to": "QUANTUM_ELIMINATION"
+              }
+            },
+            {
+              "code": "VERIFY",
+              "edges": [
+                41076,
+                40921,
+                37179,
+                36374,
+                28163,
+                28047
+              ],
+              "event": "Verified(mass=6100)",
+              "expressive": {
+                "animation": "VERIFY_RING",
+                "attention_mass": 10000,
+                "color": "SHADOW_VIOLET",
+                "emphasis": "CENTER",
+                "glow_mass": 7050,
+                "inherited": true,
+                "intensity_mass": 7050,
+                "motion": "FOCUS",
+                "phase": "SHADOW_VERIFICATION",
+                "phase_label": "verifikim — përputhja me burimin po kontrollohet",
+                "reduced_motion": false,
+                "register": "MEASURED",
+                "spread_mass": 3500,
+                "tempo_ms": 1400,
+                "trust_mass": 6100
+              },
+              "label": "Y = 1: rrugë hiperonimie me 6 hapa",
+              "nodes": [
+                19379,
+                18500,
+                17968,
+                15358,
+                15246,
+                660,
+                96
+              ],
+              "transition": {
+                "at_ms": 0,
+                "cause": "Verified(mass=6100)",
+                "from": "QUANTUM_ELIMINATION",
+                "rule": "T05 mbështetje nga burimi → SHADOW_VERIFICATION",
+                "seq": 3,
+                "to": "SHADOW_VERIFICATION"
+              }
+            },
+            {
+              "code": "SPEAK",
+              "edges": [],
+              "event": "Realized",
+              "expressive": {
+                "animation": "SPEAK_PULSE",
+                "attention_mass": 10000,
+                "color": "NURA_GOLD",
+                "emphasis": "X_INHERITS_Y",
+                "glow_mass": 6050,
+                "inherited": true,
+                "intensity_mass": 6050,
+                "motion": "FORWARD",
+                "phase": "NURA_SPEAKING",
+                "phase_label": "Nura flet — shprehje e mbështetur nga burimi",
+                "reduced_motion": false,
+                "register": "MEASURED",
+                "spread_mass": 6000,
+                "tempo_ms": 2200,
+                "trust_mass": 6100
+              },
+              "label": "shprehja u ndërtua nga plani",
+              "nodes": [],
+              "transition": {
+                "at_ms": 0,
+                "cause": "Realized",
+                "from": "SHADOW_VERIFICATION",
+                "rule": "T09 shprehje e realizuar → NURA_SPEAKING",
+                "seq": 4,
+                "to": "NURA_SPEAKING"
+              }
+            }
+          ],
+          "trace": 1,
+          "view": {
+            "center": 120221,
+            "edges": [
+              {
+                "attrs": [],
+                "from": 120221,
+                "id": 499198,
+                "lang": "sq",
+                "method": "omw_offset_map",
+                "on_path": false,
+                "rel": "has_sense",
+                "rel_label": "ka kuptimin",
+                "source": "omw_als",
+                "source_label": "Albanet / OMW",
+                "to": 19379
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "m"
+                  ],
+                  [
+                    "anim",
+                    "anim"
+                  ],
+                  [
+                    "flags",
+                    "alb"
+                  ],
+                  [
+                    "en",
+                    "dog"
+                  ],
+                  [
+                    "src",
+                    "uniparser"
+                  ]
+                ],
+                "from": 120221,
+                "id": 647584,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "uniparser",
+                "source_label": "Leksiku gramatikor shqip (uniparser)",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "m"
+                  ],
+                  [
+                    "src",
+                    "wiktionary_en"
+                  ]
+                ],
+                "from": 120221,
+                "id": 667454,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "kaikki_en",
+                "source_label": "Wiktionary anglisht (hyrjet shqipe)",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "m"
+                  ]
+                ],
+                "from": 120221,
+                "id": 733186,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "kaikki_de",
+                "source_label": "Wiktionary gjermanisht (hyrjet shqipe)",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "m"
+                  ],
+                  [
+                    "src",
+                    "wikidata:L313032"
+                  ]
+                ],
+                "from": 120221,
+                "id": 744655,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "wd_lexemes",
+                "source_label": "Lexemat e Wikidata",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "src",
+                    "model_claude"
+                  ],
+                  [
+                    "pos",
+                    "n"
+                  ]
+                ],
+                "from": 120221,
+                "id": 872997,
+                "lang": "sq",
+                "method": "model_authored",
+                "on_path": false,
+                "rel": "sem:HYPERNYM",
+                "rel_label": "lloj i",
+                "source": "model_claude",
+                "source_label": "Leksik i modelit Claude (AI), i verifikuar nga një kalim i dytë",
+                "to": 117693
+              },
+              {
+                "attrs": [
+                  [
+                    "form",
+                    "qeni"
+                  ],
+                  [
+                    "upos",
+                    "NOUN"
+                  ],
+                  [
+                    "feats",
+                    "Case=Abl|Definite=Ind|Gender=Masc|Number=Sing"
+                  ],
+                  [
+                    "deprel",
+                    "nmod"
+                  ],
+                  [
+                    "tok",
+                    "27"
+                  ]
+                ],
+                "from": 120221,
+                "id": 878248,
+                "lang": "sq",
+                "method": "ud_annotation",
+                "on_path": false,
+                "rel": "occurs_in",
+                "rel_label": "përdoret në fjalinë",
+                "source": "ud_sq_staf",
+                "source_label": "UD Albanian-STAF",
+                "to": 305389
+              },
+              {
+                "attrs": [],
+                "from": 19379,
+                "id": 41076,
+                "lang": "en",
+                "method": "published",
+                "on_path": true,
+                "rel": "wn:@",
+                "rel_label": "hiperonim (lloj i)",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 18500
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "0"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "05"
+                  ],
+                  [
+                    "en",
+                    "canid=1;canine=2"
+                  ]
+                ],
+                "from": 19379,
+                "id": 413812,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 19379
+              },
+              {
+                "attrs": [],
+                "from": 18500,
+                "id": 40921,
+                "lang": "en",
+                "method": "published",
+                "on_path": true,
+                "rel": "wn:@",
+                "rel_label": "hiperonim (lloj i)",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 17968
+              },
+              {
+                "attrs": [],
+                "from": 18500,
+                "id": 40924,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "wn:~",
+                "rel_label": "hiponim",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 19379
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "0"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "05"
+                  ],
+                  [
+                    "en",
+                    "carnivore=1"
+                  ]
+                ],
+                "from": 18500,
+                "id": 413679,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 18500
+              },
+              {
+                "attrs": [],
+                "from": 17968,
+                "id": 37179,
+                "lang": "en",
+                "method": "published",
+                "on_path": true,
+                "rel": "wn:@",
+                "rel_label": "hiperonim (lloj i)",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 15358
+              },
+              {
+                "attrs": [],
+                "from": 17968,
+                "id": 37190,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "wn:~",
+                "rel_label": "hiponim",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 18500
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "0"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "05"
+                  ],
+                  [
+                    "en",
+                    "eutherian=1;eutherian mammal=1;placental=1;placental mammal=1"
+                  ]
+                ],
+                "from": 17968,
+                "id": 410601,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 17968
+              },
+              {
+                "attrs": [],
+                "from": 15358,
+                "id": 36374,
+                "lang": "en",
+                "method": "published",
+                "on_path": true,
+                "rel": "wn:@",
+                "rel_label": "hiperonim (lloj i)",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 15246
+              },
+              {
+                "attrs": [],
+                "from": 15358,
+                "id": 36390,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "wn:~",
+                "rel_label": "hiponim",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 17968
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "3"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "05"
+                  ],
+                  [
+                    "en",
+                    "mammal=1;mammalian=1"
+                  ]
+                ],
+                "from": 15358,
+                "id": 410253,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 15358
+              },
+              {
+                "attrs": [],
+                "from": 15246,
+                "id": 28163,
+                "lang": "en",
+                "method": "published",
+                "on_path": true,
+                "rel": "wn:@",
+                "rel_label": "hiperonim (lloj i)",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 660
+              },
+              {
+                "attrs": [],
+                "from": 15246,
+                "id": 28174,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "wn:~",
+                "rel_label": "hiponim",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 15358
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "1"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "05"
+                  ],
+                  [
+                    "en",
+                    "craniate=1;vertebrate=1"
+                  ]
+                ],
+                "from": 15246,
+                "id": 404055,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 15246
+              },
+              {
+                "attrs": [],
+                "from": 660,
+                "id": 28047,
+                "lang": "en",
+                "method": "published",
+                "on_path": true,
+                "rel": "wn:@",
+                "rel_label": "hiperonim (lloj i)",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 96
+              },
+              {
+                "attrs": [],
+                "from": 660,
+                "id": 28052,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "wn:~",
+                "rel_label": "hiponim",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 15246
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "0"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "05"
+                  ],
+                  [
+                    "en",
+                    "chordate=1"
+                  ]
+                ],
+                "from": 660,
+                "id": 403968,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 660
+              },
+              {
+                "attrs": [],
+                "from": 96,
+                "id": 689,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "wn:~",
+                "rel_label": "hiponim",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 660
+              },
+              {
+                "attrs": [
+                  [
+                    "tag",
+                    "87"
+                  ],
+                  [
+                    "rank",
+                    "1"
+                  ],
+                  [
+                    "lex",
+                    "03"
+                  ],
+                  [
+                    "en",
+                    "animal=1;animate being=1;beast=1;brute=2;creature=1;fauna=2"
+                  ]
+                ],
+                "from": 96,
+                "id": 377808,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "sem:SENSE_FREQ",
+                "rel_label": "lidhje SENSE_FREQ",
+                "source": "pwn30",
+                "source_label": "WordNet 3.0",
+                "to": 96
+              },
+              {
+                "attrs": [],
+                "from": 117693,
+                "id": 495277,
+                "lang": "sq",
+                "method": "omw_offset_map",
+                "on_path": false,
+                "rel": "has_sense",
+                "rel_label": "ka kuptimin",
+                "source": "omw_als",
+                "source_label": "Albanet / OMW",
+                "to": 96
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "f"
+                  ],
+                  [
+                    "anim",
+                    "anim"
+                  ],
+                  [
+                    "flags",
+                    "alb"
+                  ],
+                  [
+                    "en",
+                    "animal"
+                  ],
+                  [
+                    "src",
+                    "uniparser"
+                  ]
+                ],
+                "from": 117693,
+                "id": 626203,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "uniparser",
+                "source_label": "Leksiku gramatikor shqip (uniparser)",
+                "to": 117693
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "f"
+                  ],
+                  [
+                    "src",
+                    "wiktionary_en"
+                  ]
+                ],
+                "from": 117693,
+                "id": 677462,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "kaikki_en",
+                "source_label": "Wiktionary anglisht (hyrjet shqipe)",
+                "to": 117693
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ],
+                  [
+                    "gender",
+                    "f"
+                  ],
+                  [
+                    "src",
+                    "wikidata:L1359735"
+                  ]
+                ],
+                "from": 117693,
+                "id": 740745,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "lex",
+                "rel_label": "të dhëna gramatikore",
+                "source": "wd_lexemes",
+                "source_label": "Lexemat e Wikidata",
+                "to": 117693
+              },
+              {
+                "attrs": [],
+                "from": 130473,
+                "id": 511423,
+                "lang": "sq",
+                "method": "lemma_string_match",
+                "on_path": false,
+                "rel": "form_of",
+                "rel_label": "formë e fjalës (përputhje lemë)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ]
+                ],
+                "from": 142955,
+                "id": 525583,
+                "lang": "sq",
+                "method": "lemma_string_match",
+                "on_path": false,
+                "rel": "form_of",
+                "rel_label": "formë e fjalës (përputhje lemë)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "pos",
+                    "n"
+                  ]
+                ],
+                "from": 204275,
+                "id": 600819,
+                "lang": "sq",
+                "method": "lemma_string_match",
+                "on_path": false,
+                "rel": "form_of",
+                "rel_label": "formë e fjalës (përputhje lemë)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 120221
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wordnet/3.1"
+                  ],
+                  [
+                    "license",
+                    "cc:by/4.0"
+                  ],
+                  [
+                    "weight",
+                    "2.0"
+                  ]
+                ],
+                "from": 204275,
+                "id": 600821,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/Synonym",
+                "rel_label": "sinonim (ConceptNet)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 204276
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/en"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 142953,
+                "id": 525584,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/IsA",
+                "rel_label": "ConceptNet /r/IsA",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 142955
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/en"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 142956,
+                "id": 525586,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/IsA",
+                "rel_label": "ConceptNet /r/IsA",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 142955
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/en"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 142958,
+                "id": 525588,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/IsA",
+                "rel_label": "ConceptNet /r/IsA",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 142955
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/en"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 142960,
+                "id": 525590,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/IsA",
+                "rel_label": "ConceptNet /r/IsA",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 142955
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/fr"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 178960,
+                "id": 571874,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/Synonym",
+                "rel_label": "sinonim (ConceptNet)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 130473
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/en"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 171196,
+                "id": 563521,
+                "lang": "en",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/Synonym",
+                "rel_label": "sinonim (ConceptNet)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 130473
+              },
+              {
+                "attrs": [
+                  [
+                    "dataset",
+                    "/d/wiktionary/de"
+                  ],
+                  [
+                    "license",
+                    "cc:by-sa/4.0"
+                  ],
+                  [
+                    "weight",
+                    "1.0"
+                  ]
+                ],
+                "from": 167207,
+                "id": 559519,
+                "lang": "sq",
+                "method": "published",
+                "on_path": false,
+                "rel": "cn:/r/Synonym",
+                "rel_label": "sinonim (ConceptNet)",
+                "source": "conceptnet57",
+                "source_label": "ConceptNet 5.7",
+                "to": 130473
+              }
+            ],
+            "nodes": [
+              {
+                "id": 120221,
+                "key": "w:sq:qen",
+                "kind": "word",
+                "label": "qen",
+                "lang": "sq",
+                "note": "i₀ «qeni»",
+                "side": "C",
+                "source": "lexicon",
+                "status": "focus",
+                "x": 0,
+                "y": 0
+              },
+              {
+                "id": 19379,
+                "key": "s:pwn30:02083346-n",
+                "kind": "sense",
+                "label": "qen",
+                "lang": "sq",
+                "note": "ka rrugë hiperonimie drejt objektit",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "selected",
+                "x": 380,
+                "y": 0
+              },
+              {
+                "id": 18500,
+                "key": "s:pwn30:02075296-n",
+                "kind": "sense",
+                "label": "mishngrënës",
+                "lang": "sq",
+                "note": "hiperonim i drejtpërdrejtë",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "path",
+                "x": 680,
+                "y": 0
+              },
+              {
+                "id": 17968,
+                "key": "s:pwn30:01886756-n",
+                "kind": "sense",
+                "label": "plaçentë",
+                "lang": "sq",
+                "note": "hapi 2 i rrugës",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "path",
+                "x": 545,
+                "y": -266
+              },
+              {
+                "id": 15358,
+                "key": "s:pwn30:01861778-n",
+                "kind": "sense",
+                "label": "gjitar",
+                "lang": "sq",
+                "note": "hapi 3 i rrugës",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "path",
+                "x": 628,
+                "y": -89
+              },
+              {
+                "id": 15246,
+                "key": "s:pwn30:01471682-n",
+                "kind": "sense",
+                "label": "vertebror",
+                "lang": "sq",
+                "note": "hapi 4 i rrugës",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "path",
+                "x": 711,
+                "y": 88
+              },
+              {
+                "id": 660,
+                "key": "s:pwn30:01466257-n",
+                "kind": "sense",
+                "label": "kordak",
+                "lang": "sq",
+                "note": "hapi 5 i rrugës",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "path",
+                "x": 794,
+                "y": 265
+              },
+              {
+                "id": 96,
+                "key": "s:pwn30:00015388-n",
+                "kind": "sense",
+                "label": "kafshë",
+                "lang": "sq",
+                "note": "hapi 6 i rrugës",
+                "side": "Y",
+                "source": "pwn30",
+                "status": "target",
+                "x": 877,
+                "y": 442
+              },
+              {
+                "id": 117693,
+                "key": "w:sq:kafshë",
+                "kind": "word",
+                "label": "kafshë",
+                "lang": "sq",
+                "note": "objekti «kafshë»",
+                "side": "Y",
+                "source": "lexicon",
+                "status": "object",
+                "x": 960,
+                "y": 760
+              },
+              {
+                "id": 305389,
+                "key": "u:ud_sq_staf:STAF__13",
+                "kind": "sentence",
+                "label": "Hadi m'u shfaq atë ditë, kur …",
+                "lang": "sq",
+                "note": "forma «qeni» · nmod · Case=Abl|Definite=Ind|Gender=Masc|Number=Sing",
+                "side": "X",
+                "source": "ud_sq_staf",
+                "status": "usage",
+                "x": -420,
+                "y": -780
+              },
+              {
+                "id": 130473,
+                "key": "c:/c/sq/qen",
+                "kind": "concept",
+                "label": "qen",
+                "lang": "sq",
+                "note": "koncept ConceptNet (pa kuptim të caktuar)",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -420,
+                "y": -260
+              },
+              {
+                "id": 142955,
+                "key": "c:/c/sq/qen/n",
+                "kind": "concept",
+                "label": "qen",
+                "lang": "sq",
+                "note": "koncept ConceptNet (pa kuptim të caktuar)",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -420,
+                "y": 260
+              },
+              {
+                "id": 204275,
+                "key": "c:/c/sq/qen/n/wn/animal",
+                "kind": "concept",
+                "label": "qen",
+                "lang": "sq",
+                "note": "koncept ConceptNet (pa kuptim të caktuar)",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -420,
+                "y": 780
+              },
+              {
+                "id": 142953,
+                "key": "c:/c/sq/qen_deti",
+                "kind": "concept",
+                "label": "qen deti",
+                "lang": "sq",
+                "note": "/r/IsA · /d/wiktionary/en",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": -700
+              },
+              {
+                "id": 142956,
+                "key": "c:/c/sq/qen_gjahu",
+                "kind": "concept",
+                "label": "qen gjahu",
+                "lang": "sq",
+                "note": "/r/IsA · /d/wiktionary/en",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": -500
+              },
+              {
+                "id": 142958,
+                "key": "c:/c/sq/qen_roje",
+                "kind": "concept",
+                "label": "qen roje",
+                "lang": "sq",
+                "note": "/r/IsA · /d/wiktionary/en",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": -300
+              },
+              {
+                "id": 142960,
+                "key": "c:/c/sq/qen_stani",
+                "kind": "concept",
+                "label": "qen stani",
+                "lang": "sq",
+                "note": "/r/IsA · /d/wiktionary/en",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": -100
+              },
+              {
+                "id": 204276,
+                "key": "c:/c/en/canine/n/wn/animal",
+                "kind": "concept",
+                "label": "canine",
+                "lang": "en",
+                "note": "/r/Synonym · /d/wordnet/3.1",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": 100
+              },
+              {
+                "id": 178960,
+                "key": "c:/c/fr/chien/n",
+                "kind": "concept",
+                "label": "chien",
+                "lang": "fr",
+                "note": "/r/Synonym · /d/wiktionary/fr",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": 300
+              },
+              {
+                "id": 171196,
+                "key": "c:/c/en/dog_translations/n",
+                "kind": "concept",
+                "label": "dog translations",
+                "lang": "en",
+                "note": "/r/Synonym · /d/wiktionary/en",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": 500
+              },
+              {
+                "id": 167207,
+                "key": "c:/c/de/hund/n",
+                "kind": "concept",
+                "label": "hund",
+                "lang": "de",
+                "note": "/r/Synonym · /d/wiktionary/de",
+                "side": "X",
+                "source": "conceptnet57",
+                "status": "form",
+                "x": -780,
+                "y": 700
+              }
+            ]
+          }
+        },
+        "ok": true
+      }
+    },
+    {
+      "request": "GET / with foreign Host",
+      "status": 403
+    }
+  ]
+}

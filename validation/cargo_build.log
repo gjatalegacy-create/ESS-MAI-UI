@@ -1,0 +1,4 @@
+warn: could not canonicalize path C:\Users\AG
+   Compiling ui_ess_mai v0.1.0 (<UI_WORKSPACE>\app)
+   Compiling nura_fetch v0.1.0 (<UI_WORKSPACE>\nura_fetch)
+    Finished `release` profile [optimized] target(s) in 1m 28s

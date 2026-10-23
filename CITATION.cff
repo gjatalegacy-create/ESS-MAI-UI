@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this UI by its repository release and cite the upstream ESS-MAI work separately."
+type: software
+title: "ESS-MAI UI: Nura Legacy"
+version: "0.1.0-public.1"
+date-released: "2026-10-23"
+authors:
+  - family-names: Gjata
+    given-names: Bledar
+    orcid: "https://orcid.org/0009-0003-7854-266X"
+repository-code: "https://github.com/gjatalegacy-create/ESS-MAI-UI"
+url: "https://huggingface.co/datasets/gjata-legacy/ess-mai-ui-nura-legacy"
+license: Apache-2.0
+keywords:
+  - ESS-MAI
+  - Albanian
+  - Rust
+  - Tauri
+  - reproducibility

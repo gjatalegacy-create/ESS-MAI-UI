@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Nura Legacy — ui_ess_mai</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="shell" id="shell" data-phase="LIGHT_COORDINATION" data-emphasis="BALANCED" data-motion="BREATHE">
+    <div class="visual-layer" aria-hidden="true"></div>
+    <div class="veil" aria-hidden="true"></div>
+
+    <aside class="sidebar" aria-label="Navigimi i Nura-s">
+      <div class="brand-row">
+        <img src="assets/nura-legacy-logo.png" alt="Nura Legacy" class="brand-logo">
+      </div>
+      <nav class="nav-stack" id="nav">
+        <button class="nav-item active" data-view="home"><span>✦</span><strong>NURA · GRAFI</strong></button>
+        <button class="nav-item" data-view="process"><span>⌁</span><strong>SHPREHJA & TONI</strong></button>
+        <button class="nav-item" data-view="law"><span>◎</span><strong>LIGJI EMOCIONAL</strong></button>
+        <button class="nav-item" data-view="sources"><span>▱</span><strong>BURIMET</strong></button>
+      </nav>
+      <div class="sidebar-spacer"></div>
+      <div class="legend">
+        <div><i class="lg-x"></i>Xi · forma, përdorimi (UD, ConceptNet)</div>
+        <div><i class="lg-y"></i>Yi · kuptimi (Albanet → WordNet)</div>
+        <div><i class="lg-c"></i>i₀ · fjala në fokus</div>
+        <div><i class="lg-e"></i>i eliminuar (−Yi)</div>
+        <div><i class="lg-p"></i>rrugë verifikimi</div>
+      </div>
+      <div class="phase-badge">
+        <span class="phase-mark">◇</span>
+        <span>ESS-MAI<br>UI_ESS_MAI<br>v0.1 · RUST</span>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">NURA LEGACY</div>
+          <h1 id="viewTitle">Nura · Grafi i fjalëve</h1>
+        </div>
+        <div class="runtime-pill" id="runtimePill"><i></i><span>Po ngarkohet indeksi…</span></div>
+      </header>
+
+      <section id="home" class="view active-view">
+        <div class="stage" id="stage">
+          <svg id="graph" viewBox="-1150 -980 2300 1960" role="img" aria-label="Grafi i fjalëve dhe kuptimeve">
+            <defs>
+              <radialGradient id="gHalfX" cx="0%" cy="50%" r="100%">
+                <stop offset="0%" stop-color="#e5bd6a" stop-opacity=".22"/>
+                <stop offset="100%" stop-color="#e5bd6a" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="gHalfY" cx="100%" cy="50%" r="100%">
+                <stop offset="0%" stop-color="#2f7fff" stop-opacity=".26"/>
+                <stop offset="100%" stop-color="#2f7fff" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="gCenter" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/>
+                <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect id="halfX" x="-1150" y="-980" width="1150" height="1960" fill="url(#gHalfX)"/>
+            <rect id="halfY" x="0" y="-980" width="1150" height="1960" fill="url(#gHalfY)"/>
+            <line id="splitLine" x1="0" y1="-980" x2="0" y2="980"/>
+            <circle id="centerGlow" cx="0" cy="0" r="260" fill="url(#gCenter)"/>
+            <g id="edges"></g>
+            <g id="nodes"></g>
+          </svg>
+          <div class="side-label x">Xi · FORMA & PËRDORIMI</div>
+          <div class="side-label y">Yi · KUPTIMET</div>
+          <ol id="processRail" class="process-rail" aria-label="Hapat e procesit"></ol>
+        </div>
+        <div id="conversation" class="conversation" aria-live="polite">
+            <div id="emptyHint" class="empty-hint">
+            <h2>Eksploro me Nura-n</h2>
+            <p>Shkruaj një fjalë shqipe ose një pohim të shkurtër. Fjala bëhet i₀, ndahet në formë (Xi) dhe kuptim (Yi), kuptimet që nuk mbështeten bien, dhe shprehja ndërtohet vetëm nga ajo që mbetet në graf.</p>
+            <div class="examples" id="examples">
+              <button>zjarr</button><button>zjarr armë</button><button>a është qeni kafshë?</button>
+              <button>qeni nuk është kafshë</button><button>a është qeni bimë?</button>
+              <button>e kundërta e bardhë</button><button>mace</button>
+              <button>nëse qeni është kafshë, atëherë qeni është organizëm</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="view">
+        <div class="glass-panel wide-panel">
+          <div class="panel-kicker">GRAFI EMOCIONAL ≠ GRAFI GJUHËSOR</div>
+          <h2>Shprehja në 7 regjistra</h2>
+          <p>Toni ndryshon vetëm kornizën. Thelbi (pohimi, mohimi, kushti, konteksti, burimi) vjen nga plani i grafit dhe duhet të jetë bajt-për-bajt i njëjtë.</p>
+          <div id="registerList" class="register-list"><em>Ende pa shprehje.</em></div>
+          <h3>Plani i shprehjes</h3>
+          <pre id="planBox">—</pre>
+          <h3>Origjina e formave</h3>
+          <div id="formsBox" class="forms-box">—</div>
+          <h3>EmotionalCommand (kontrata e trashëguar e ESS-MAI)</h3>
+          <pre id="cmdBox">—</pre>
+        </div>
+      </section>
+
+      <section id="law" class="view">
+        <div class="glass-panel wide-panel">
+          <div class="panel-kicker">FUNKSION I MODELUAR NDËRVEPRIMI — JO NDJENJË</div>
+          <h2>Ligji emocional i ndërfaqes</h2>
+          <div id="phaseTable" class="phase-table"></div>
+          <h3>Rregullat e tranzicionit</h3>
+          <table class="rules">
+            <thead><tr><th>Rregulli</th><th>Nga</th><th>Ngjarja (shkaku)</th><th>Në</th></tr></thead>
+            <tbody>
+              <tr><td>T01</td><td>LIGHT_COORDINATION</td><td>Typing</td><td>LIGHT_COORDINATION (vëmendje ↑)</td></tr>
+              <tr><td>T02</td><td>çdo gjendje</td><td>Submitted (i₀)</td><td>QUANTUM_ELIMINATION</td></tr>
+              <tr><td>T03</td><td>QUANTUM_ELIMINATION</td><td>CandidatesFound</td><td>QUANTUM_ELIMINATION (besim sipas burimeve)</td></tr>
+              <tr><td>T04</td><td>QUANTUM_ELIMINATION</td><td>Eliminated</td><td>QUANTUM_ELIMINATION</td></tr>
+              <tr><td>T05</td><td>QE / HOLD / SV</td><td>Verified</td><td>SHADOW_VERIFICATION</td></tr>
+              <tr><td>T06</td><td>QUANTUM_ELIMINATION</td><td>Ambiguous</td><td>HOLD_IZ_QUESTION</td></tr>
+              <tr><td>T07</td><td>QE / SV</td><td>Absent</td><td>NEGATIVE_WITNESS</td></tr>
+              <tr><td>T08</td><td>QE / SV</td><td>Contradiction</td><td>SHADOW_VERIFICATION (kontrast)</td></tr>
+              <tr><td>T09</td><td>SV / HOLD / NW</td><td>Realized</td><td>NURA_SPEAKING / HOLD mbetet / NW mbetet</td></tr>
+              <tr><td>T10</td><td>HOLD (ose LC/NS/NW)</td><td>UserChoseSense</td><td>SHADOW_VERIFICATION</td></tr>
+              <tr><td>T11</td><td>LC / NS / NW</td><td>Explored</td><td>LIGHT_COORDINATION (fokus i ri)</td></tr>
+              <tr><td>T12</td><td>NS / NW</td><td>Tick ≥ 12 s</td><td>LIGHT_COORDINATION</td></tr>
+              <tr><td>T13</td><td>çdo gjendje</td><td>Fault</td><td>TECHNICAL_FAULT</td></tr>
+              <tr><td>T14</td><td>LIGHT_COORDINATION</td><td>Tick</td><td>vëmendja zbehet</td></tr>
+            </tbody>
+          </table>
+          <p class="note">HOLD nuk zbehet me kohë: pret autorizimin (zgjedhjen e përdoruesit). TECHNICAL_FAULT pret një i₀ të ri. Mungesa (NEGATIVE_WITNESS) nuk është as gabim, as mohim.</p>
+        </div>
+      </section>
+
+      <section id="sources" class="view">
+        <div class="glass-panel wide-panel">
+          <div class="panel-kicker">TË DHËNA TË IMPORTUARA — JO HISTORI ORGANIKE E ESS-MAI</div>
+          <h2>Burimet gjuhësore lokale</h2>
+          <div id="sourceSummary" class="source-summary"></div>
+          <div class="table-wrap"><table class="sources" id="sourceTable"></table></div>
+          <h3>Raporti i importit</h3>
+          <pre id="reportBox">—</pre>
+        </div>
+      </section>
+
+      <footer class="composer">
+        <input id="question" type="text" maxlength="400" placeholder="explore with Nura — p.sh. «zjarr armë» ose «a është qeni kafshë?»" autocomplete="off" spellcheck="false">
+        <button id="graphToggle" class="toggle-button" type="button" aria-pressed="false">◇ SI U NDËRTUA</button>
+        <button id="motionToggle" class="toggle-button" type="button" aria-pressed="false">◌ LËVIZJE E REDUKTUAR</button>
+        <button id="send" class="send-button" type="button" aria-label="Dërgo">➤</button>
+      </footer>
+    </main>
+
+    <aside class="system-reflection" aria-label="Pasqyrimi emocional i sistemit">
+      <div class="orb-wrap"><div id="orbRing" class="orb-ring"></div><div id="orb" class="orb"></div></div>
+      <div id="emotionPhase" class="emotion-phase">LIGHT_COORDINATION</div>
+      <div id="emotionLabel" class="emotion-label">—</div>
+      <div class="emotion-meter"><span id="emotionMeter"></span></div>
+      <dl class="emotion-facts">
+        <dt>regjistri</dt><dd id="fRegister">—</dd>
+        <dt>ritmi</dt><dd id="fTempo">—</dd>
+        <dt>theksi</dt><dd id="fEmphasis">—</dd>
+        <dt>besimi</dt><dd id="fTrust">—</dd>
+        <dt>lëvizja</dt><dd id="fMotion">—</dd>
+      </dl>
+      <div class="panel-kicker">TRANZICIONET (shkak · rregull)</div>
+      <ol id="transitionLog" class="transition-log"></ol>
+      <div class="panel-kicker">INSPEKTORI</div>
+      <div id="inspector" class="inspector"><em>Kliko një nyje ose një vijë.</em></div>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

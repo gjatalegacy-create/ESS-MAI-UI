@@ -1,0 +1,12 @@
+/target/
+/app/gen/
+/nisja/
+*.key
+.env
+.env.*
+/data/product_root.txt
+/data/product_state/
+/data/babelnet_requests.txt
+/data/raw/babelnet53/
+/data/raw/gazulli1941/
+/.cache/

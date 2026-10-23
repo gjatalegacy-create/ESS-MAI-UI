@@ -1,0 +1,8 @@
+# ui_ess_mai — UI emocionale e ESS-MAI + grafet e fjalëve (shqip)
+# Hapësirë pune e veçantë; nuk varet nga workspace-i i ess_mai dhe nuk e ndryshon atë.
+[workspace]
+resolver = "2"
+members = ["nura_lingua", "nura_fetch", "app"]
+
+[profile.release]
+opt-level = 3

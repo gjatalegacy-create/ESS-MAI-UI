@@ -1,0 +1,7 @@
+[package]
+name = "nura_lingua"
+version = "0.1.0"
+edition = "2021"
+description = "Grafi i fjalëve/kuptimeve, importuesit, motori emocional dhe shprehja shqipe — pa varësi të jashtme"
+
+[dependencies]

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "model/sq_model_deshmi_cs.tsv",
+    "before": "0bd37bd909a6071f9e65b2ec41bd6062c2e8331de68f77ebc10017ed56018f19",
+    "after": "b2407d8d27d211fe8a16dc98e9ed7923267024f07061f052189b8157d4cc9de6",
+    "kind": "comment wording only"
+  },
+  {
+    "path": "model/sq_model_lexicon.tsv",
+    "before": "27843191b8e88d792c2eadc7869c5beca32e5faa1fb5d6a18a372e4d5b5b5654",
+    "after": "b094d248097dfe95494ae8ae93808f152b66cbca176efe5df84504b0458b972c",
+    "kind": "comment wording only"
+  },
+  {
+    "path": "nura_lingua/src/graph.rs",
+    "before": "3834a4974578d0b325cf6a493c4c81bcc0ac97a21d7d947af5efb6872525e26b",
+    "after": "2d78efdb4071ac7bb9c9a35575ac92d171106e32ef061d8c0e61a4110cbfd2b0",
+    "kind": "comment wording only"
+  },
+  {
+    "path": "nura_lingua/src/src_model.rs",
+    "before": "c689308509b9dccc793632f7f555b1c241218d8c53cbffa41cb6794c7fe2250b",
+    "after": "4f35302cb350b683dc0828a4f61f8edeef3e9bf0c3f3b022aeae507ac2844b76",
+    "kind": "comment wording only"
+  }
+]

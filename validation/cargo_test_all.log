@@ -1,0 +1,581 @@
+warn: could not canonicalize path C:\Users\AG
+   Compiling ui_ess_mai v0.1.0 (<UI_WORKSPACE>\app)
+    Finished `release` profile [optimized] target(s) in 3.89s
+     Running unittests src\main.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_fetch-fc0dde2d0d822938.exe)
+
+running 37 tests
+test babelnet::tests::hexname_roundtrip_is_stable ... ok
+test babelnet::tests::today_is_iso_date ... ok
+test gazulli_parse::tests::page_numbers_and_section_letters_are_not_text ... ok
+test src_dialects::tests::detects_ai_coauthor_trailer ... ok
+test gazulli_parse::tests::splits_real_entries_and_cuts_foreign_equivalents ... ok
+test gazulli_parse::tests::a_hyphen_at_a_page_break_joins_the_continuation ... ok
+test src_conceptnet_en::tests::terms_and_json_fields ... ok
+test src_dialects::tests::keeps_only_five_columns ... ok
+test src_eurovoc::tests::date_format ... ok
+test gazulli_parse::tests::continuations_compounds_and_out_of_section_words_are_not_entries ... ok
+test src_eurovoc::tests::bad_json_is_error ... ok
+test src_eurovoc::tests::json_to_tsv_rows ... ok
+test src_kaikki_de::tests::gender_codes ... ok
+test src_kaikki_de::tests::german_words_detected ... ok
+test src_kaikki_de::tests::extract_keeps_linkages_and_drops_german ... ok
+test src_kaikki_de::tests::version_is_read_from_info_page ... ok
+test src_kaikki_en::tests::other_languages_are_not_extracted ... ok
+test src_kaikki_en::tests::version_is_read_from_index_page ... ok
+test src_lexin::tests::extract_rejects_wrong_target_language ... ok
+test src_lexin::tests::metadata_license_and_date_are_read ... ok
+test src_lexin::tests::extract_keeps_only_albanian_side ... ok
+test src_loanwords::tests::atom_first_commit ... ok
+test src_kaikki_en::tests::tsv_keeps_real_forms_and_drops_template_rows ... ok
+test src_loanwords::tests::blob_sha1_matches_git ... ok
+test src_loanwords::tests::json_to_rows ... ok
+test src_uniparser::tests::parses_real_lexeme_blocks ... ok
+test src_uniparser::tests::pypi_digest_and_license_checks ... ok
+test src_uniparser::tests::generates_definite_nominative_from_paradigms ... ok
+test src_uniparser::tests::status_flags_gheg_nonst_abbr ... ok
+test src_uniparser::tests::stems_and_flexes_are_strict ... ok
+test src_wd_lexemes::tests::bad_json_is_error ... ok
+test src_wd_lexemes::tests::transient_errors ... ok
+test src_wd_lexemes::tests::converts_real_shapes ... ok
+test tests::git_blob_sha1_matches_git_definition ... ok
+test tests::json_first_string_reads_sha ... ok
+test src_uniparser::tests::validation_and_tsv_respect_threshold ... ok
+test babelnet::tests::tsv_keeps_quality_marker_and_skips_nothing_silently ... ok
+
+test result: ok. 37 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_lingua-c66034f70ee76c62.exe)
+
+running 318 tests
+test biseda::tests::a_body_part_is_placed_in_the_body ... ok
+test biseda::tests::a_fact_of_another_sense_is_left_out ... ok
+test biseda::tests::a_fact_about_a_subkind_is_said_of_the_subkind_only ... ok
+test biseda::tests::a_change_of_state_without_object_takes_the_middle_voice ... ok
+test biseda::tests::a_fact_that_restates_the_word_is_not_the_main_fact ... ok
+test biseda::tests::prepositions_and_adjectives_take_their_case ... ok
+test biseda::tests::a_person_is_somewhere_a_worker_works_there ... ok
+test biseda::tests::reading_finds_intent_and_content_words ... ok
+test biseda::tests::cause_names_the_reasons ... ok
+test biseda::tests::object_form_follows_the_english_source ... ok
+test biseda::tests::a_question_without_witnessed_facts_is_answered_about_the_word_asked ... ok
+test biseda::tests::portrait_links_category_function_and_place ... ok
+test biseda::tests::a_true_but_incidental_fact_is_not_the_main_fact ... ok
+test biseda::tests::relation_prefers_a_direct_link_then_explains_it ... ok
+test biseda::tests::relation_through_a_shared_category_with_contrast ... ok
+test biseda::tests::shared_verbs_are_said_once ... ok
+test biseda::tests::tails_parse ... ok
+test biseda::tests::the_category_confirmed_by_the_taxonomy_comes_first ... ok
+test biseda::tests::unsure_forms_are_not_spoken ... ok
+test biseda::tests::witnesses_decide_what_is_spoken ... ok
+test derive::tests::a_rule_that_fails_does_not_claim_the_pair ... ok
+test derive::tests::evaluation_counts_gold_confirmations ... ok
+test derive::tests::malformed_rule_rows_are_rejected ... ok
+test derive::tests::one_pair_gets_only_the_first_accepting_rule ... ok
+test derive::tests::rules_parse_and_link_only_existing_bases_with_right_pos ... ok
+test emotion::tests::absence_is_witness_not_fault_and_settles ... ok
+test emotion::tests::ambiguity_holds_and_does_not_decay_with_time ... ok
+test emotion::tests::attention_decays_silently_and_logs_only_when_extinguished ... ok
+test emotion::tests::contradiction_selects_corrective_register ... ok
+test emotion::tests::every_transition_has_cause_and_rule ... ok
+test emotion::tests::inherited_phase_names_are_marked ... ok
+test emotion::tests::reduced_motion_keeps_phase_and_color_but_removes_motion ... ok
+test emotion::tests::technical_fault_is_a_separate_channel ... ok
+test emotion::tests::typing_does_not_interrupt_hold ... ok
+test emotion::tests::verified_cycle_reaches_nura_speaking_with_documented_rules ... ok
+test expression::tests::answered_question_starts_with_po ... ok
+test expression::tests::forms_record_their_origin ... ok
+test expression::tests::frames_never_carry_negation_or_condition ... ok
+test expression::tests::core_is_identical_across_all_registers ... ok
+test expression::tests::meaning_reads_as_a_definition ... ok
+test derive::tests::the_real_rule_table_is_well_formed ... ok
+test expression::tests::negation_condition_and_context_survive_realization ... ok
+test expression::tests::sentence_is_plain_language_without_source_brackets ... ok
+test expression::tests::several_opposites_become_one_sentence ... ok
+test expression::tests::user_claim_polarity_is_preserved_in_contradiction ... ok
+test gramatika::dialektet::shkronjat::tests::fold_drops_stress_but_keeps_nasality ... ok
+test gramatika::dialektet::shkronjat::tests::letters_keep_digraphs_whole ... ok
+test derive::tests::real_table_decisions_on_a_small_lexicon ... ok
+test gramatika::dialektet::shkronjat::tests::levenshtein_distance ... ok
+test gramatika::dialektet::shkronjat::tests::sonority_scale_orders_the_classes ... ok
+test gramatika::dialektet::tests::declared_variant_uses_the_lexref ... ok
+test gramatika::dialektet::tests::consonant_correspondences ... ok
+test gramatika::dialektet::tests::diphthong ... ok
+test gramatika::dialektet::tests::gheg_generation_keeps_the_stressed_vowel ... ok
+test gramatika::dialektet::tests::irregular_table_needs_its_witness ... ok
+test gramatika::dialektet::tests::gheg_infinitive_both_ways ... ok
+test gramatika::dialektet::tests::near_equal_paths_to_two_lemmas_are_a_hold ... ok
+test gramatika::dialektet::tests::hold_when_nothing_is_attested ... ok
+test gramatika::dialektet::tests::low_nasals_and_restorations_are_evidence_not_answers ... ok
+test gramatika::dialektet::tests::proper_names_need_a_proper_lemma ... ok
+test gramatika::dialektet::tests::participles_need_a_verb_of_the_lexicon ... ok
+test gramatika::dialektet::tests::gheg_generation ... ok
+test gramatika::dialektet::tests::rhotacism_restores_r ... ok
+test gramatika::dialektet::tests::single_reflex_nasals_become_oral ... ok
+test gramatika::dialektet::tests::tosk_schwa_only_in_a_closed_syllable ... ok
+test gramatika::dialektet::tests::standard_forms_are_held ... ok
+test gramatika::dialektet::tests::weak_spelling_rules_only_witness ... ok
+test gramatika::dialektet::trajtat::tests::gheg_participles_follow_the_class ... ok
+test gramatika::dialektet::trajtat::tests::inflected_standard_forms ... ok
+test gramatika::emri::tests::ablative_plural_and_variants ... ok
+test gramatika::emri::tests::feminine_classes_take_alternations_from_stems ... ok
+test gramatika::emri::tests::hold_when_the_lexeme_is_not_consistent ... ok
+test gramatika::emri::tests::masculine_classes_with_i_and_u ... ok
+test gramatika::emri::tests::lexeme_choice_and_homonyms ... ok
+test gramatika::emri::tests::plural_only_for_groups_that_pass_dev ... ok
+test gramatika::emri::tests::plural_only_homonym_is_a_second_witness ... ok
+test gramatika::emri::tests::shape_fallback_for_reliable_endings ... ok
+test gramatika::emri::tests::third_stem_of_3b_follows_the_orthography ... ok
+test gramatika::folja::tests::auxiliaries_from_the_closed_table ... ok
+test gramatika::emri::tests::witness_gender_errors_hold_the_singular ... ok
+test gramatika::folja::tests::compound_tenses_use_kam_and_the_participle ... ok
+test gramatika::folja::tests::dua_optative_from_its_own_stem ... ok
+test gramatika::folja::tests::hold_when_the_lexeme_does_not_fit_its_class ... ok
+test gramatika::folja::tests::imperative_keeps_j_after_a_and_drops_it_after_i_and_ye ... ok
+test gramatika::folja::tests::consonant_classes_and_stem_alternation ... ok
+test gramatika::folja::tests::imperative_plural_equals_present_plural ... ok
+test gramatika::folja::tests::mediopassive_lemma_resolves_to_its_verified_active_lexeme ... ok
+test gramatika::folja::tests::first_class_in_oj_gives_the_textbook_paradigm ... ok
+test gramatika::folja::tests::mediopassive_needs_evidence ... ok
+test gramatika::folja::tests::irregular_verbs_from_their_own_classes ... ok
+test gramatika::folja::tests::nonfinite_forms ... ok
+test gramatika::folja::tests::mediopassive_lemma_sees_every_homonym ... ok
+test gramatika::folja::tests::single_stem_only_in_classes_without_alternation ... ok
+test gramatika::folja::tests::participle_in_r_after_diphthong_in_re_after_simple_vowel ... ok
+test gramatika::folja::tests::mediopassive_synthetic_and_analytic ... ok
+test gramatika::fonologjia::alfabeti::tests::digraphs_are_single_letters ... ok
+test gramatika::folja::tests::stem_variant_without_hiatus_and_with_intact_head ... ok
+test gramatika::fonologjia::alfabeti::tests::letter_classes ... ok
+test gramatika::fonologjia::diakritikat::tests::candidate_space_is_bounded ... ok
+test gramatika::fonologjia::rrokjet::tests::falling_or_flat_sonority_splits_the_cluster ... ok
+test gramatika::fonologjia::diakritikat::tests::valid_inflected_input_is_never_rewritten ... ok
+test gramatika::fonologjia::rrokjet::tests::pair_readings ... ok
+test gramatika::fonologjia::diakritikat::tests::variants_attest_nothing_and_ambiguity_is_held ... ok
+test gramatika::fonologjia::diakritikat::tests::unique_lemma_or_form_is_restored ... ok
+test gramatika::fonologjia::rrokjet::tests::rising_onsets_and_vowel_pairs ... ok
+test gramatika::fonologjia::rrokjet::tests::single_consonant_goes_to_the_next_syllable ... ok
+test gramatika::fonologjia::rrokjet::tests::unstable_boundaries_are_held ... ok
+test gramatika::fonologjia::rrokjet::tests::word_initial_onsets ... ok
+test gramatika::fonologjia::shqiptimi::tests::edit_distance ... ok
+test gramatika::fonologjia::shqiptimi::tests::foreign_signs_are_held ... ok
+test gramatika::fonologjia::shqiptimi::tests::standard_correspondences ... ok
+test gramatika::fonologjia::theksi::tests::adverb_suffixes ... ok
+test gramatika::fonologjia::theksi::tests::final_schwa_is_never_stressed ... ok
+test gramatika::fonologjia::theksi::tests::function_words_with_stressed_final_schwa ... ok
+test gramatika::fonologjia::theksi::tests::inflectional_endings_are_unstressed ... ok
+test gramatika::fonologjia::theksi::tests::lemma_rules_by_part_of_speech ... ok
+test gramatika::fonologjia::theksi::tests::unstressed_suffix_classes_are_held ... ok
+test gramatika::fonologjia::theksi::tests::paradigm_class_and_stem_projection ... ok
+test gramatika::fonologjia::theksi::tests::vowel_pairs_follow_the_reading ... ok
+test gramatika::fonologjia::tests::no_input_makes_a_rule_panic ... ok
+test gramatika::mbiemri::tests::a_noun_of_the_lexicon_is_not_inflected_as_an_adjective ... ok
+test gramatika::mbiemri::tests::adjective_classes_from_stems ... ok
+test gramatika::mbiemri::tests::article_before_a_definite_adjective ... ok
+test gramatika::mbiemri::tests::article_table_for_adjectives ... ok
+test gramatika::mbiemri::tests::adverbial_first_parts_keep_the_article ... ok
+test gramatika::mbiemri::tests::article_table_for_genitives ... ok
+test gramatika::mbiemri::tests::agreement_phrases ... ok
+test gramatika::mbiemri::tests::compound_outside_the_lexicon_inherits_the_head ... ok
+test gramatika::mbiemri::tests::conflicting_evidence_inside_the_lexeme_holds ... ok
+test gramatika::mbiemri::tests::derivation_from_a_compound_adjective_holds ... ok
+test gramatika::mbiemri::tests::compounds_prefixes_and_participles ... ok
+test gramatika::mbiemri::tests::invariant_adjectives ... ok
+test gramatika::mbiemri::tests::lemma_is_trimmed_and_lowercased ... ok
+test gramatika::mbiemri::tests::participle_shape_needs_the_verb ... ok
+test gramatika::mbiemri::tests::shape_rules_are_narrow ... ok
+test gramatika::mbiemri::tests::noun_noun_compounds_and_short_fragments ... ok
+test gramatika::mbiemri::tests::hand_checked_compounds ... ok
+test gramatika::mbiemri::tests::stems_that_do_not_give_the_lemma_are_not_trusted ... ok
+test gramatika::mbiemri::tests::participles_follow_the_verb_class ... ok
+test gramatika::mbiemri::tests::untrusted_stems_hold_without_falling_back_to_the_shape ... ok
+test gramatika::numerori::tests::decomposition_is_positional ... ok
+test gramatika::numerori::tests::compounds_with_the_connector ... ok
+test gramatika::numerori::tests::fractions_and_decimals ... ok
+test gramatika::numerori::tests::gender_of_three ... ok
+test gramatika::numerori::tests::joined_readings ... ok
+test gramatika::numerori::tests::parse_holds_on_malformed_input ... ok
+test gramatika::numerori::tests::ordinals ... ok
+test gramatika::numerori::tests::simple_teens_and_tens ... ok
+test gramatika::numerori::tests::vigesimal_dialect_forms_are_held ... ok
+test gramatika::numerori::tests::textbook_sample ... ok
+test gramatika::numerori::tests::years ... ok
+test gramatika::peremri::demonstrative::tests::near_and_far ... ok
+test gramatika::peremri::indefinite::tests::closed_indefinites ... ok
+test gramatika::numerori::tests::parse_is_the_inverse ... ok
+test gramatika::peremri::interrogative::tests::cili_and_i_cili ... ok
+test gramatika::peremri::interrogative::tests::invariants ... ok
+test gramatika::peremri::indefinite::tests::qofte_after_do ... ok
+test gramatika::peremri::indefinite::tests::kush_class ... ok
+test gramatika::peremri::indefinite::tests::unchangeable_and_declining_must_agree ... ok
+test gramatika::peremri::indefinite::tests::cili_classes ... ok
+test gramatika::peremri::indefinite::tests::sa_is_plural_in_oblique_cases ... ok
+test gramatika::peremri::interrogative::tests::kush_table ... ok
+test gramatika::peremri::personal::tests::after_preposition ... ok
+test gramatika::peremri::indefinite::tests::det_pro_and_invariant ... ok
+test gramatika::peremri::personal::tests::after_preposition_forms_are_variants ... ok
+test gramatika::peremri::personal::tests::clitics ... ok
+test gramatika::peremri::personal::tests::clusters ... ok
+test gramatika::peremri::indefinite::tests::adjectival_classes ... ok
+test gramatika::peremri::personal::tests::doubling ... ok
+test gramatika::peremri::personal::tests::first_and_second_person_objects_always_take_the_clitic ... ok
+test gramatika::peremri::personal::tests::full_forms ... ok
+test gramatika::peremri::possessive::tests::article_agreement ... ok
+test gramatika::peremri::possessive::tests::attributive_first_second ... ok
+test gramatika::peremri::possessive::tests::attributive_third ... ok
+test gramatika::peremri::possessive::tests::predicative_is_not_attributive ... ok
+test gramatika::peremri::possessive::tests::reflexive_possessive ... ok
+test gramatika::peremri::possessive::tests::substantive_and_kinship ... ok
+test gramatika::peremri::reflexive::tests::vetja ... ok
+test gramatika::peremri::tests::closed_tables_answer_by_lemma ... ok
+test gramatika::peremri::tests::contradicting_number_is_held ... ok
+test gramatika::peremri::tests::lemma_gender_holds_only_for_the_lemma_number ... ok
+test gramatika::peremri::tests::missing_feature_answers_only_when_forms_coincide ... ok
+test gramatika::peremri::tests::possessed_number_comes_only_from_the_query ... ok
+test gramatika::sintaksa::tests::article_chain_before_a_genitive_noun ... ok
+test gramatika::sintaksa::tests::adjective_agrees_with_its_noun ... ok
+test gramatika::sintaksa::tests::article_table_matches_the_paradigm ... ok
+test gramatika::sintaksa::tests::article_follows_contact_with_the_definite_noun ... ok
+test gramatika::sintaksa::tests::clause_orders_negation_clitic_verb_and_object ... ok
+test gramatika::sintaksa::tests::clause_places_clitic_and_negation_by_the_verb_particle ... ok
+test gramatika::sintaksa::tests::conllu_reader_keeps_ids_and_skips_ranges ... ok
+test gramatika::sintaksa::tests::clitic_precedes_the_finite_verb ... ok
+test gramatika::sintaksa::tests::coordinated_polite_and_existential_subjects ... ok
+test gramatika::sintaksa::tests::determiners_and_numerals_agree_with_the_noun ... ok
+test gramatika::sintaksa::tests::disjunct_objects_and_fused_imperatives ... ok
+test gramatika::sintaksa::tests::expletive_mos_after_fear_and_in_ne_mos ... ok
+test gramatika::sintaksa::tests::genitive_linker_agrees_with_the_possessed_noun ... ok
+test gramatika::sintaksa::tests::negation_particle_follows_the_mood ... ok
+test gramatika::sintaksa::tests::indirect_and_fronted_objects_are_doubled ... ok
+test gramatika::sintaksa::tests::noun_form_overrides_a_contradicting_annotation ... ok
+test gramatika::sintaksa::tests::plural_dative_is_doubled_by_iu_before_the_nonactive_u ... ok
+test gramatika::sintaksa::tests::predicative_article_follows_the_subject ... ok
+test gramatika::sintaksa::tests::preposed_possessive_takes_an_indefinite_kinship_noun ... ok
+test gramatika::sintaksa::tests::subject_and_verb_agree_in_person_and_number ... ok
+test graph::tests::duplicate_edges_are_not_created ... ok
+test graph::tests::rel_code_roundtrip ... ok
+test graph::tests::word_and_sense_have_distinct_identities ... ok
+test gramatika::sintaksa::tests::subject_cases_beyond_plain_agreement ... ok
+test import::tests::conceptnet_concepts_link_to_words_not_senses ... ok
+test import::tests::babelnet_definite_titles_become_citation_lemmas_or_are_dropped ... ok
+test import::tests::conllu_parser_handles_comment_order_and_multiword_lines ... ok
+test import::tests::conllu_rejects_malformed_rows ... ok
+test import::tests::english_text_labelled_albanian_is_detected ... ok
+test import::tests::omw_links_albanian_lemma_to_existing_sense_and_reports_missing ... ok
+test import::tests::pwn_parser_reads_synsets_lemmas_pointers_and_examples ... ok
+test import::tests::title_candidates_extend_strip_rules ... ok
+test layout::tests::neighborhood_draws_only_real_edges ... ok
+test morph::tests::attested_form_wins_over_rule ... ok
+test morph::tests::capitalize_handles_quotes ... ok
+test morph::tests::lemma_candidates_include_rule_stripped_forms ... ok
+test morph::tests::rules_with_attested_gender ... ok
+test morph::tests::uncertain_and_multiword_fall_back_to_citation ... ok
+test oratoria::tests::balance_and_growth_follow_the_formulas ... ok
+test gramatika::numerori::tests::ordinal_reading_is_the_inverse ... ok
+test morph::tests::rules_with_guessed_gender_are_marked_as_guessed ... ok
+test oratoria::tests::behaghel_puts_the_longer_part_last ... ok
+test oratoria::tests::clitics_carry_no_stress ... ok
+test oratoria::tests::cursus_endings_are_recognised ... ok
+test oratoria::tests::regular_rhythm_scores_full_and_irregular_less ... ok
+test oratoria::tests::syllables_and_stress_are_counted ... ok
+test oratoria::tests::the_choice_is_deterministic ... ok
+test query::tests::explore_keeps_context_words ... ok
+test query::tests::parser_covers_the_supported_grammar ... ok
+test sentence::tests::feminine_adjective_rules ... ok
+test sentence::tests::lines_fit_the_external_limit_on_char_boundaries ... ok
+test sentence::tests::material_is_one_line ... ok
+test sha256::tests::known_vectors ... ok
+test src_commonsense::tests::agreement_on_a_minor_sense_holds_when_wiktionary_names_another_word ... ok
+test src_commonsense::tests::english_terms_lose_determiners_and_block_pronouns ... ok
+test src_commonsense::tests::gloss_items_split_the_first_gloss_into_translations ... ok
+test src_commonsense::tests::equal_witnesses_hold_instead_of_an_alphabetical_choice ... ok
+test src_commonsense::tests::gloss_parts_follow_wordnet_part_of_speech_and_spelling_keeps_the_part_of_speech ... ok
+test src_commonsense::tests::ambiguity_and_conflict_hold_instead_of_guessing ... ok
+test src_commonsense::tests::light_verbs_phrasal_verbs_participles_and_activities_hold_instead_of_calques ... ok
+test src_commonsense::tests::duplicate_albanian_triples_merge_into_one_edge ... ok
+test src_commonsense::tests::minor_sense_agreement_holds_unless_wiktionary_is_decisive ... ok
+test src_commonsense::tests::model_lexicon_witnesses_but_never_vetoes ... ok
+test src_commonsense::tests::one_bridge_against_counted_wordnet_senses_needs_a_second_witness ... ok
+test src_commonsense::tests::synonym_bridge_keeps_the_direct_translation_when_the_wordnet_word_means_else ... ok
+test src_commonsense::tests::model_witness_doubles_only_confirmed_triples_and_never_speaks_alone ... ok
+test src_dialects::tests::empty_and_partial ... ok
+test src_commonsense::tests::phrasal_verbs_stray_copula_and_reflexive_objects_hold ... ok
+test src_dialects::tests::links_only_to_known_standard_lemmas ... ok
+test src_eurovoc::tests::empty_and_partial ... ok
+test src_commonsense::tests::phrases_become_structured_albanian_tails ... ok
+test src_commonsense::tests::two_agreeing_bridges_give_ab_and_one_bridge_is_weak ... ok
+test src_commonsense::tests::single_bridge_needs_a_clean_witness ... ok
+test src_eurovoc::tests::lemma_rules ... ok
+test src_eurovoc::tests::english_never_becomes_albanian ... ok
+test src_eurovoc::tests::imports_relations ... ok
+test src_eurovoc::tests::six_column_tsv_still_works ... ok
+test src_gazulli::tests::heads_need_letters_and_no_single_letter_parts ... ok
+test src_gazulli::tests::gheg_forms_are_checked_against_standard_forms ... ok
+test src_gazulli::tests::cross_references_labels_variants_and_weak_single_words_are_not_glosses ... ok
+test src_gazulli::tests::examples_addenda_latin_names_and_known_ocr_garbage_are_not_glosses ... ok
+test src_gazulli::tests::keeps_clean_glosses_and_rejects_ocr_noise ... ok
+test src_kaikki_de::tests::imports_linkages_with_filters ... ok
+test src_kaikki_de::tests::blocked_derivations_forms_and_multi_pos_senses ... ok
+test src_kaikki_de::tests::sense_index_forms ... ok
+test src_kaikki_de::tests::co_hyponym_antonyms_are_low ... ok
+test src_kaikki_de::tests::lex_pos_and_gender ... ok
+test src_kaikki_en::tests::alias_with_confirmed_albanian_sense_blocks_the_english_bridge ... ok
+test src_kaikki_de::tests::hypernym_hyponym_consistency ... ok
+test src_kaikki_de::tests::article_fragments_rejected_except_function_words ... ok
+test src_kaikki_en::tests::feats_mapping_rejects_unknown_tags ... ok
+test src_kaikki_en::tests::english_glosses_stay_english ... ok
+test src_kaikki_de::tests::idempotent_on_reimport ... ok
+test src_kaikki_en::tests::entries_and_morphemes ... ok
+test src_lexin::tests::adjective_marker_does_not_attach_to_noun_only_homograph ... ok
+test src_kaikki_en::tests::definite_nominative_comes_from_the_table ... ok
+test src_kaikki_en::tests::form_of_feeds_morphology_after_tables ... ok
+test src_lexin::tests::article_nodes_get_no_lexin_edges_from_split_markers ... ok
+test src_kaikki_en::tests::lex_attributes ... ok
+test src_lexin::tests::feminine_form_after_masculine_marker_is_dropped ... ok
+test src_kaikki_en::tests::gloss_only_form_of_becomes_form_of_not_a_sense ... ok
+test src_lexin::tests::bare_articles_never_become_members ... ok
+test src_lexin::tests::empty_graph_accepts_nothing_and_creates_nothing ... ok
+test src_kaikki_en::tests::verbs_and_adjectives_morphology ... ok
+test src_kaikki_en::tests::relations_of_abbreviation_senses_do_not_land_on_the_homograph ... ok
+test src_kaikki_en::tests::table_placeholders_are_not_word_forms ... ok
+test src_lexin::tests::leading_article_is_stripped_only_in_adjective_entries ... ok
+test src_kaikki_en::tests::relations_only_between_albanian_words ... ok
+test src_lexin::tests::edges_only_between_words_that_already_exist ... ok
+test src_lexin::tests::importing_twice_adds_no_duplicates ... ok
+test src_lexin::tests::one_lex_loop_per_word_even_when_entries_disagree ... ok
+test src_lexin::tests::restricting_note_keeps_word_but_blocks_synonyms ... ok
+test src_lexin::tests::semicolon_subsenses_are_not_merged ... ok
+test src_lexin::tests::split_fixes_definite_endings_slashes_and_missing_commas ... ok
+test src_lexin::tests::verb_entries_read_i_as_clitic_not_article ... ok
+test src_lexin::tests::split_handles_markers_notes_slashes_and_fragments ... ok
+test src_loanwords::tests::empty_and_partial ... ok
+test src_loanwords::tests::existing_phrase_is_linked ... ok
+test src_loanwords::tests::imports_native_equivalents ... ok
+test src_model::tests::model_entries_link_only_known_words_and_never_compete_with_albanian_senses ... ok
+test src_owner::tests::folk_explanations_attach_only_to_known_words ... ok
+test src_perkufizime::tests::a_definition_links_the_word_to_the_content_words_it_mentions ... ok
+test src_uniparser::plausible_tests::rejects_known_source_errors_and_keeps_regular_forms ... ok
+test src_uniparser::tests::dialect_variant_and_derivation_edges ... ok
+test src_uniparser::tests::malformed_rows_are_counted_not_fatal ... ok
+test src_uniparser::tests::english_bridge_is_never_imported ... ok
+test src_uniparser::tests::gender_and_validated_definite_form ... ok
+test src_wd_lexemes::tests::empty_and_partial ... ok
+test src_uniparser::tests::words_and_lex_self_loops ... ok
+test src_wd_lexemes::tests::pure_compound ... ok
+test store::partial_tests::conceptnet_partial_follows_lock_status ... ok
+test src_wd_lexemes::tests::imports_lex_forms_compounds ... ok
+test verb::tests::irregular_and_shape_rules ... ok
+test verb::tests::paradigm_classes_give_the_third_person ... ok
+test store::tests::index_roundtrip_preserves_nodes_edges_attrs ... ok
+
+test result: ok. 318 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running unittests src\bin\nura_biseda.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_biseda-c03fa7539822d67d.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\nura_cs_export.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_cs_export-1d48b2bdb21fbe0e.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\nura_def_export.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_def_export-f7dbe20fb8e8894f.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\nura_import.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_import-27dc837b1d1b314b.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\nura_probe.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_probe-39d5a8a3029b21de.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\nura_skajet.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\nura_skajet-aabbeb7415cb9d00.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\biseda_kuptimet.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\biseda_kuptimet-c210364a0c2ac78c.exe)
+
+running 5 tests
+test definitions_link_words_by_what_they_mention ... ok
+test ari_is_both_gold_and_the_bear ... ok
+test a_word_written_without_diacritics_is_understood ... ok
+test bari_is_both_the_grass_and_the_shepherd_linked_by_their_definitions ... ok
+test several_readings_are_said_the_same_way_every_time ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.09s
+
+     Running tests\biseda_rendesia.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\biseda_rendesia-f4c4f5b5ed5fadbb.exe)
+
+running 7 tests
+test gold_is_not_presented_by_an_incidental_place ... ok
+test an_abstract_word_has_no_usual_place ... ok
+test iron_is_not_presented_by_what_its_name_already_says ... ok
+test posture_and_change_of_state_take_the_middle_voice ... ok
+test the_car_does_not_take_the_facts_of_the_machine ... ok
+test a_subkind_fact_names_the_subkind ... ok
+test the_answers_are_the_same_every_time ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.80s
+
+     Running tests\gramatika_dialektet.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_dialektet-320ffb79c3a0738c.exe)
+
+running 2 tests
+test dialect_gold ... ok
+test scan_and_index_agree ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 6.12s
+
+     Running tests\gramatika_emri.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_emri-0dd24f0f691554b7.exe)
+
+running 2 tests
+test lexicon_audit ... ok
+test gold_measurement ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.72s
+
+     Running tests\gramatika_folja.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_folja-95ef920f529a962b.exe)
+
+running 3 tests
+test present_third_person_agrees_with_nura_lingua_verb ... ok
+test folja_index_matches_the_free_functions ... ok
+test gold_measurement ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 6.37s
+
+     Running tests\gramatika_fonologjia.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_fonologjia-31437d87ca39e67e.exe)
+
+running 1 test
+test gold_measurement ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.59s
+
+     Running tests\gramatika_mbiemri.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_mbiemri-64ebd8d2d3d2bb7b.exe)
+
+running 1 test
+test gold_measurement ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.08s
+
+     Running tests\gramatika_numerori.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_numerori-816d7c2bc7a3c2b4.exe)
+
+running 2 tests
+test witness_agreement ... ok
+test gold_metrics ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 39.22s
+
+     Running tests\gramatika_peremri.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_peremri-cb4d8343626f9722.exe)
+
+running 1 test
+test gold_pronouns ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.37s
+
+     Running tests\gramatika_sintaksa.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\gramatika_sintaksa-beb3339b6629bae0.exe)
+
+running 3 tests
+test reader_counts ... ok
+test robust_on_damaged_trees ... ok
+test gold_metrics ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.58s
+
+     Running tests\real_data.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\real_data-7231a46d2de0a132.exe)
+
+running 36 tests
+test conceptnet_isa_is_used_at_form_level_when_wordnet_has_no_path ... ok
+test compare_finds_common_category_through_babelnet_wordnet_link ... ok
+test conditional_is_preserved_in_every_register ... ok
+test english_text_is_never_presented_as_albanian_context ... ok
+test importer_linked_albanian_lemmas_to_wordnet_senses_with_declared_method ... ok
+test isa_question_is_verified_by_a_real_hypernym_path ... ok
+test missing_link_is_absence_not_negation ... ok
+test a_general_sense_subsumed_by_a_narrower_one_needs_no_question ... ok
+test missing_word_is_reported_per_albanian_source_without_invented_links ... ok
+test english_only_senses_are_a_translation_bridge_not_a_question ... ok
+test negated_user_claim_keeps_its_negation_and_is_contradicted ... ok
+test model_lexicon_defines_words_but_alone_never_links_them ... ok
+test opposites_are_witnessed_and_cited_with_their_article ... ok
+test conceptnet_concepts_in_other_languages_keep_their_language ... ok
+test rare_northern_words_are_explained_from_gazulli_1941 ... FAILED
+test facet_questions_answer_only_what_was_asked ... ok
+test answers_read_as_plain_albanian_sentences ... ok
+test every_drawn_line_is_a_real_edge_with_provenance ... ok
+test ud_contexts_are_attached_as_form_evidence ... ok
+test ambiguity_holds_and_asks_then_context_eliminates ... ok
+test translations_follow_the_word_not_a_broader_synset ... FAILED
+test questions_with_an_adjective_article_keep_the_adjective ... ok
+test why_is_explained_by_a_category_chain_with_a_conclusion ... ok
+test word_with_several_meanings_is_not_collapsed_to_one_sense ... ok
+test user_choice_resolves_hold ... ok
+test wikipedia_titles_and_repeated_subjects_are_cleaned ... ok
+test word_without_albanian_definition_is_described_from_word_facts_with_languages ... ok
+test commonsense_layer_links_albanian_words_through_declared_bridges ... ok
+test third_person_rules_match_attested_ud_forms ... ok
+test adjectives_are_cited_with_their_article_not_declined_as_nouns ... ok
+test answers_are_deterministic_across_fresh_engines ... ok
+test nura_composes_sentences_from_links_and_agreements ... ok
+test spoken_facts_survive_cross_source_checks ... ok
+test verbs_and_rare_homographs_are_not_declined_as_nouns ... ok
+test tone_never_changes_signature_or_core_for_sample_inputs ... ok
+test albanian_word_formation_rules_explain_derived_words ... ok
+
+failures:
+
+---- rare_northern_words_are_explained_from_gazulli_1941 stdout ----
+
+thread 'rare_northern_words_are_explained_from_gazulli_1941' (12444) panicked at nura_lingua\tests\real_data.rs:506:9:
+kakërdhoçë: Nuk e njoh ende fjalën «kakërdhoçë»
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- translations_follow_the_word_not_a_broader_synset stdout ----
+
+thread 'translations_follow_the_word_not_a_broader_synset' (35008) panicked at nura_lingua\tests\real_data.rs:494:5:
+glosa enciklopedike vetëm deri te presja
+
+
+failures:
+    rare_northern_words_are_explained_from_gazulli_1941
+    translations_follow_the_word_not_a_broader_synset
+
+test result: FAILED. 34 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.22s
+
+error: test failed, to rerun pass `-p nura_lingua --test real_data`
+     Running unittests src\main.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\deps\ui_ess_mai-26ffb838be5474d5.exe)
+
+running 13 tests
+test emotional_command::tests::iz_emotion_remains_parallel_and_is_not_overwritten_by_nura_text ... ok
+test emotional_command::tests::pd_continuum_becomes_emotional_command_not_nura_text ... ok
+test emotional_command::tests::placeholder_is_replaced_by_runtime_command ... ok
+test product::tests::last_json_line_is_taken ... ok
+test serve::tests::faqja_pa_origin_lejohet ... ok
+test serve::tests::arsyeja_e_pare_eshte_host ... ok
+test product::tests::operation_ids_are_unique_and_prefixed ... ok
+test serve::tests::host_i_huaj_ose_mungese_refuzohet ... ok
+test serve::tests::kokat_kthehen_ne_str ... ok
+test serve::tests::origin_i_huaj_refuzohet ... ok
+test serve::tests::porti_80_lejohet_pa_port ... ok
+test serve::tests::post_json_nga_faqja_jone_lejohet ... ok
+test serve::tests::post_pa_json_refuzohet ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests nura_lingua
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: 1 target failed:
+    `-p nura_lingua --test real_data`

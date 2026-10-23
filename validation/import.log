@@ -1,0 +1,181 @@
+warn: could not canonicalize path C:\Users\AG
+   Compiling nura_lingua v0.1.0 (<UI_WORKSPACE>\nura_lingua)
+    Finished `release` profile [optimized] target(s) in 1m 04s
+     Running `C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\ui_publication_20261023\release\nura_import.exe`
+SHA-256 OK raw/pwn30/data.noun (15300280 B)
+pwn30: 82115 synsete, 269261 tregues
+SHA-256 OK raw/pwn30/data.verb (2772517 B)
+pwn30: 13767 synsete, 54947 tregues
+SHA-256 OK raw/pwn30/data.adj (3155426 B)
+pwn30: 18156 synsete, 49341 tregues
+SHA-256 OK raw/pwn30/data.adv (516696 B)
+pwn30: 3621 synsete, 4043 tregues
+SHA-256 OK raw/pwn30/index.sense (7294043 B)
+pwn30: shpeshtësia e 117659 synset-eve nga index.sense (SemCor tag_cnt)
+SHA-256 OK raw/omw_als/wn-data-als.tab (932373 B)
+omw_als: 9599 lidhje lemë→kuptim, 4686 përkufizime, 3324 shembuj; 0 rreshta me synset që mungon në PWN 3.0
+omw_als: 45 përkufizime/shembuj të shënuar si shqip në burim u gjetën në anglisht dhe u riklasifikuan lang=en (rregulli i deklaruar detect_sq_en)
+SHA-256 OK raw/conceptnet57/conceptnet-5.7.0.sq-edges.csv (19438068 B)
+conceptnet57: 56202 skaje me /c/sq/ të importuara ({"/r/Antonym": 82, "/r/DerivedFrom": 2198, "/r/DistinctFrom": 2, "/r/EtymologicallyDerivedFrom": 877, "/r/EtymologicallyRelatedTo": 8166, "/r/FormOf": 222, "/r/HasContext": 791, "/r/IsA": 142, "/r/PartOf": 1, "/r/RelatedTo": 16189, "/r/SimilarTo": 8, "/r/SymbolOf": 4587, "/r/Synonym": 22937}); 11593 skaje drejt URL-ve të jashtme (/r/ExternalURL) u përjashtuan
+SHA-256 OK raw/pwn30/index.sense (7294043 B)
+babelnet53: ende i pashkarkuar
+SHA-256 OK raw/uniparser/uniparser-sq.tsv (7092573 B)
+uniparser: 58651 rreshta; 50240 fjalë (lema) të prekura, 41410 nyje të reja, 55666 skaje të reja, 54106 hyrje morfologjike të reja
+uniparser: dialect_variant_edges=352, lex_edges=55149, morph_def_nom_sg=24870, morph_gender=29236, rows=58651, skip_abbr=360, skip_badform=1, skip_gheg_no_lexref=255, skip_nonst_no_lexref=2845, variant_related_edges=165
+SHA-256 OK raw/kaikki_en/kaikki_en-sq.tsv (20356909 B)
+kaikki_en: 24047 hyrje (+211 morfema dhe 4 hyrje në shkrim jo-latin të anashkaluara); 13491 skaje gramatikore (Lex); 15568 kuptime me glosë ANGLISHT (urë; 12 hyrje pa urë sepse «i X»/«e X» ka kuptim shqip të konfirmuar); morfologji: 121615 forma tabele + 5559 forma koke (vetëm hyrjet pa tabelë; 17293 forma koke të zëvendësuara nga tabela) + 2797 nga form_of (6452 qeliza mbushëse/jo-fjalë, 4055 forma me etiketë të panjohur dhe 117663 forma analitike/me shumë fjalë të pamarra; 863 forma me theks të hequr); FORM_OF 12228 + alt_of 822 + 19 nga glosa «… of X»; marrëdhënie: ANTONYM 346, COORDINATE 156, DERIVED_FROM 6840, HYPERNYM 44, HYPONYM 111, RELATED 7806, SYNONYM 10122; të pamarra: 4274 objektiva jo-shqip/të panjohur, 0 në gjuhë tjetër, 772 forma të lakuara të listuara si të prejardhura, 466 të kuptimeve jo-leksikore (shkurtim/alt-of/form-of), 45 vetë-lidhje
+SHA-256 OK raw/kaikki_de/kaikki_de-sq.tsv (357425 B)
+kaikki_de: 1833 hyrje, 887 të pranuara si fjalë shqipe (780 ekzistonin tashmë), të anashkaluara {"emër i përveçëm / shkronjë e madhe": 174, "form-of (trajtë e lakuar)": 544, "pos e përjashtuar (emër i përveçëm, shkronjë, morfemë, shkurtim)": 128}; 855 skaje gramatikore (Rel::Lex), 6 gjini të përziera të pashënuara
+kaikki_de: lidhje në TSV {"ANTONYM": 4009, "COORDINATE": 299, "DERIVED_FROM": 2252, "HYPERNYM": 1039, "HYPONYM": 966, "SYNONYM": 1532}; skaje Rel::Sem të shtuara {"ANTONYM": 2347, "COORDINATE": 153, "DERIVED_FROM": 797, "HYPERNYM": 899, "HYPONYM": 275, "SYNONYM": 1085} = 5556 (2571 me besueshmëri të ulët, 2889 lidhje drejt fjalëve që ekzistonin vetëm në graf)
+kaikki_de: besueshmëri e ulët sipas arsyes {"ANTONYM [klikë antonimesh (bashkë-hiponime); listë ≥3 pa reciprocitet]": 40, "ANTONYM [klikë antonimesh (bashkë-hiponime)]": 199, "ANTONYM [lista>6; klikë antonimesh (bashkë-hiponime); listë ≥3 pa reciprocitet]": 930, "ANTONYM [lista>6; klikë antonimesh (bashkë-hiponime)]": 870, "ANTONYM [lista>6; listë ≥3 pa reciprocitet]": 87, "ANTONYM [lista>6]": 1, "ANTONYM [listë ≥3 pa reciprocitet]": 82, "HYPERNYM [fushë lënde, jo lloj]": 219, "HYPERNYM [kontradiktë hiperonim/hiponim]": 4, "HYPERNYM [njësi kohe: pjesë–tërësi, jo lloj]": 68, "HYPONYM [njësi kohe: pjesë–tërësi, jo lloj]": 71}
+kaikki_de: refuzuar — 2317 nga hyrje të anashkaluara, 1626 fjalë që nuk janë as hyrje as nyje ekzistuese (p.sh. ["hi cigareve", "hirit e vullkan", "hirët", "padashas", "dashurore", "dashuruese", "dashamire", "dashakeqe", "dashakeqëse", "dashaligëse", "liridashëse", "dashuruese"]), sipas formës/qëndrueshmërisë {"emër i përveçëm / shkronjë e madhe": 64, "kontradiktë: hiponimi është edhe hiperonim (paraardhës)": 5, "morfemë": 19, "nyje e vetme (copë fraze)": 188, "prejardhje e gabuar (DERIVED_BLOCK)": 3, "trajtë paradigme (vetë/numër)": 2, "vetë-lidhje": 3}
+SHA-256 OK raw/wd_lexemes/wd_lexemes-sq.tsv (834304 B)
+wd_lexemes: 5295 lexema shqipe (emër/folje/mbiemër/ndajfolje/emër i përveçëm), 23 të kategorive të tjera të pa-importuara; 5294 skaje Lex (pos/gjini); 14249 forma morfologjike, 155 forma të anashkaluara (jo standarde / pa tipare), 27 tipare pa përkthim UD të hequra, 175 shenja «lemë» (Q18514) të anashkaluara; 0 COMPOUND_OF, 12 DERIVED_FROM (me ndajshtesë) nga P5238; 0 përbërje pa lexemë të njohur
+SHA-256 OK raw/lexin/lexin-sq.tsv (1674066 B)
+lexin: 47575 rreshta shqip, 21221 kuptime (MatchingID); 0 rreshta të pavlefshëm
+lexin: grupe Translation+Synonym 20968 (me ≥2 anëtarë 14576; të pranuar 12132; të anashkaluar 8836); antonime 226 (të pranuar 193); prejardhje 1015 (të pranuara 897); të paimportuara me qëllim: 7104 rreshta Compound, 1919 rreshta Idiom
+lexin: çifte të pranuara 43704; të anashkaluara 6644 (fjala e vetme mungon në graf) + 2871 (frazë–frazë) + 0 (homograf: shënues mbiemri te nyje vetëm-emër) + 994 (nën-kuptime të ndryshme «;») + 2016 (shënim kufizues në kllapa, p.sh. «motër (në spital)»; 1272 anëtarë të tillë mbeten fjalë pa SYNONYM/ANTONYM); skaje të reja: 77078 SYNONYM, 612 ANTONYM, 9712 RELATED (derivation), 1427 Lex (nyja e mbiemrit); 4981 nyje-fraza të krijuara
+lexin: copa të hedhura 9199 (711 vetëm shënim në kllapa, 4849 copa gjinie/mbaresë si «-e» ose «- e», 3348 parafraza të gjata, 291 me shenja jo-leme, 0 nyje «i/e/të» të vetme); korrigjime: 816 mbaresa të shquara «-i/-a/-u» të hequra, 6 nyje «i/e/të» të hequra në hyrje mbiemërore
+SHA-256 OK raw/eurovoc/eurovoc-sq.tsv (718723 B)
+eurovoc: 6941 koncepte me etiketë shqipe; 6938 nyje-fjalë të lidhura; 7193 EUROVOC_UF (altLabel→prefLabel, jo sinonim), 6999 BROADER, 9954 RELATED; 3 prefLabel dhe 24 altLabel anglisht të anashkaluara (p.sh. «soil conditioning», «organisation of production», «Maqedonia Lindore and Traka»; «European Union investment», «codex alimentarius», «natural reserve», «DVD-video», «DVD-audio», «audio DVD», «European Union loan», «habeas corpus», «acquis communautaire», «European Union action», «multifaceted agriculture», «agrarian policies»); 812 lidhje drejt koncepteve pa etiketë shqipe
+SHA-256 OK raw/loanwords/loanwords-sq.tsv (90893 B)
+loanwords: 2334 çifte në TSV; 2334 lidhje NATIVE_EQUIVALENT nga 1381 fjalë të huaja; 0 çifte të anashkaluara (bosh / të njëjta / frazë e panjohur)
+dialects: ende i pashkarkuar
+gazulli1941: ende i pashkarkuar
+model_claude: <UI_WORKSPACE>\nura_lingua\..\data\..\model/sq_model_lexicon.tsv (SHA-256 b094d248097dfe95494ae8ae93808f152b66cbca176efe5df84504b0458b972c)
+model_claude: 7390 hyrje; {"kuptime të reja (fjalë pa kuptim shqip)": 5173, "lidhje drejt fjalës së panjohur (u la jashtë)": 132, "lidhje të shtuara": 11763, "përkufizim pa kuptim përkatës (u la jashtë)": 2, "përkufizim pa pjesë ligjërate (u la jashtë)": 95, "përkufizime të shtuara te kuptimi ekzistues": 1}
+owner_note: <UI_WORKSPACE>\nura_lingua\..\data\..\model/sq_shenime_pronari.tsv (SHA-256 69c91503db89fd53acaea83031ebad3b1f5f9737be995f3ea376d33681dc0353)
+owner_note: 1 shpjegime popullore të shënuara si të tilla; 0 rreshta të palexueshëm
+SHA-256 OK raw/ud_sq_tsa/sq_tsa-ud-test.conllu (63483 B)
+ud_sq_tsa: 60 fjali, 454 përdorime fjalësh përmbajtjeje, 388 varësi ndërmjet tyre
+SHA-256 OK raw/ud_sq_staf/sq_staf-ud-train.conllu (259261 B)
+ud_sq_staf: 160 fjali, 1171 përdorime fjalësh përmbajtjeje, 982 varësi ndërmjet tyre
+SHA-256 OK raw/ud_sq_staf/sq_staf-ud-dev.conllu (28223 B)
+ud_sq_staf: 20 fjali, 134 përdorime fjalësh përmbajtjeje, 114 varësi ndërmjet tyre
+SHA-256 OK raw/ud_sq_staf/sq_staf-ud-test.conllu (32768 B)
+ud_sq_staf: 20 fjali, 146 përdorime fjalësh përmbajtjeje, 122 varësi ndërmjet tyre
+local_ext: asnjë zgjerim lokal (skedari mungon)
+sq_rules: tabela <UI_WORKSPACE>\nura_lingua\..\data\..\rules\sq_fjaleformimi.tsv (SHA-256 f1847afb594360b3959f6efde6f4ffb283135cdc3979430ee56c63fc98dcd96c)
+sq_rules C-JO-NEG: 118 lidhje; standardi i artë: 5 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules C-KRYE: 157 lidhje; standardi i artë: 2 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules C-KRYE.LEX: 3 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules C-VETE: 111 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules C-VETE.A: 68 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules C-VETE.LEX: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-ACT-ESE: 78 lidhje; standardi i artë: 2 të konfirmuara, 4 me bazë tjetër (saktësi 33%)
+sq_rules D-ACT-ESE.UAJ: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-ACT-IM: 1820 lidhje; standardi i artë: 63 të konfirmuara, 23 me bazë tjetër (saktësi 73%)
+sq_rules D-ACT-IM.UAJ: 2 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ACT-JE: 10 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ADJ-MATERIAL: 5 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-ADJ-OR: 605 lidhje; standardi i artë: 44 të konfirmuara, 6 me bazë tjetër (saktësi 88%)
+sq_rules D-ADJ-REL: 9 lidhje; standardi i artë: 2 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ADJ-REL.CONF: 25 lidhje; standardi i artë: 6 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ADJ-REL.TAR-CONF: 142 lidhje; standardi i artë: 23 të konfirmuara, 2 me bazë tjetër (saktësi 92%)
+sq_rules D-ADJ-SHEM-ADV: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-ADJ-SHEM-N: 294 lidhje; standardi i artë: 11 të konfirmuara, 2 me bazë tjetër (saktësi 85%)
+sq_rules D-ADJ-SHEM-N.HQ: 9 lidhje; standardi i artë: 6 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ADJ-UESHEM-V: 242 lidhje; standardi i artë: 10 të konfirmuara, 1 me bazë tjetër (saktësi 91%)
+sq_rules D-ADJ-UESHEM-V.ABLE: 9 lidhje; standardi i artë: 6 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ADV-ISHT: 303 lidhje; standardi i artë: 17 të konfirmuara, 3 me bazë tjetër (saktësi 85%)
+sq_rules D-ADV-ISHT.LEX: 5 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-AG-ES: 7 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-AG-ES.CONF: 72 lidhje; standardi i artë: 18 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-AG-IST.IDEO: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-AG-IST.IZEM: 105 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-AG-IST.N: 4 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-AG-TAR: 11 lidhje; standardi i artë: 3 të konfirmuara, 1 me bazë tjetër (saktësi 75%)
+sq_rules D-AG-TAR.RES: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-AG-TOR.ATOR: 67 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-AG-TOR.N: 1 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-AG-TOR.V: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-AG-UES: 380 lidhje; standardi i artë: 19 të konfirmuara, 4 me bazë tjetër (saktësi 83%)
+sq_rules D-AG-UES.ADJ: 399 lidhje; standardi i artë: 1 të konfirmuara, 1 me bazë tjetër (saktësi 50%)
+sq_rules D-BASHKE: 105 lidhje; standardi i artë: 9 të konfirmuara, 2 me bazë tjetër (saktësi 82%)
+sq_rules D-BASHKE.LEX: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-CAUS-Z-ADJ: 10 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-COUNTRY: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-DIM-OTHER: 7 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-DIM-OTHER.LEX: 4 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-DIM-TH: 6 lidhje; standardi i artë: 2 të konfirmuara, 1 me bazë tjetër (saktësi 67%)
+sq_rules D-DIM-TH.CONF: 33 lidhje; standardi i artë: 9 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-DIM-TH.LEX: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-FEM-E: 541 lidhje; standardi i artë: 0 të konfirmuara, 3 me bazë tjetër (saktësi 0%)
+sq_rules D-FEM-E.WL: 12 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-FEM-ESHE: 5 lidhje; standardi i artë: 2 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-GJYSME: 34 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-INSTR-ESE: 3 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-ISH: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-KEQ-MIRE.KEQ: 31 lidhje; standardi i artë: 1 të konfirmuara, 1 me bazë tjetër (saktësi 50%)
+sq_rules D-KEQ-MIRE.LEX: 3 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-KEQ-MIRE.MIRE: 25 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-KUNDER.A: 23 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-KUNDER.N: 50 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-KUNDER.V: 10 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-MBI.A: 37 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-MBI.LEX: 5 lidhje; standardi i artë: 2 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-MBI.N: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-MBI.OVER: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-MBI.V: 20 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-MOS-NEG: 233 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-MOS-NEG.ANT: 11 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-NDER.A: 46 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-NDER.LEX: 6 lidhje; standardi i artë: 0 të konfirmuara, 1 me bazë tjetër (saktësi 0%)
+sq_rules D-NDER.N: 3 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-NEN.LEX: 5 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-NEN.PART: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-NEN.PLACE: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-NEN.ROLE: 2 lidhje; standardi i artë: 0 të konfirmuara, 1 me bazë tjetër (saktësi 0%)
+sq_rules D-NEN.V: 9 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PA-NEG-ADJ: 630 lidhje; standardi i artë: 8 të konfirmuara, 3 me bazë tjetër (saktësi 73%)
+sq_rules D-PA-NEG-N: 5 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PA-NEG-N.CONF: 4 lidhje; standardi i artë: 0 të konfirmuara, 1 me bazë tjetër (saktësi 0%)
+sq_rules D-PA-PRIV-N: 118 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PA-PRIV-N.LEX: 3 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PARA.LEX: 2 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-PARA.N: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PARA.V: 36 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-PAS: 5 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PAS.E: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-PLACE: 5 lidhje; standardi i artë: 2 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-QUAL-ESI: 230 lidhje; standardi i artë: 26 të konfirmuara, 1 me bazë tjetër (saktësi 96%)
+sq_rules D-QUAL-ESI.LEX: 1 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-QUAL-ESI.N: 2 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-QUAL-I: 43 lidhje; standardi i artë: 2 të konfirmuara, 2 me bazë tjetër (saktësi 50%)
+sq_rules D-QUAL-I.CONF: 34 lidhje; standardi i artë: 8 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-QUAL-I.WL: 6 lidhje; standardi i artë: 1 të konfirmuara, 1 me bazë tjetër (saktësi 50%)
+sq_rules D-QUAL-SHMERI: 156 lidhje; standardi i artë: 4 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-REV-NASAL: 6 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-REV-PFX: 105 lidhje; standardi i artë: 0 të konfirmuara, 1 me bazë tjetër (saktësi 0%)
+sq_rules D-REV-PFX.SH: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-REV-PFX.SHORT: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-RI-REP.N: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-RI-REP.V: 103 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-STATE-ERI: 5 lidhje; standardi i artë: 3 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-STATE-ERI.CONF: 34 lidhje; standardi i artë: 7 të konfirmuara, 1 me bazë tjetër (saktësi 88%)
+sq_rules D-STATE-ERI.WL: 3 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-STER.A: 25 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-STER.DOWN: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-STER.UP: 2 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-STER.V: 1 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-TERRAIN: 4 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-VB-ESOJ-ADJ: 36 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules D-VB-OJ: 11 lidhje; standardi i artë: 3 të konfirmuara, 2 me bazë tjetër (saktësi 60%)
+sq_rules D-VB-OJ.CONF: 273 lidhje; standardi i artë: 61 të konfirmuara, 5 me bazë tjetër (saktësi 92%)
+sq_rules D-VOICE-HEM: 3 lidhje; standardi i artë: 1 të konfirmuara, 0 me bazë tjetër (saktësi 100%)
+sq_rules D-ZEVENDES: 51 lidhje; standardi i artë: 0 të konfirmuara, 0 me bazë tjetër
+sq_rules: 8310 lidhje semantike nga 111 rregulla të fjalëformimit; standardi i artë ka 2099 çifte
+etymology: nxjerrja e Wiktionary-t mungon
+SHA-256 OK raw/meyer1891/etymologischesw01meyegoog_djvu.txt (971571 B)
+SHA-256 OK raw/meyer1891/etymologischesw00meyegoog_djvu.txt (613455 B)
+SHA-256 OK raw/conceptnet57/conceptnet-5.7.0.en-commonsense.tsv (27898564 B)
+SHA-256 OK raw/pwn30/index.noun (4786655 B)
+SHA-256 OK raw/pwn30/index.verb (523980 B)
+SHA-256 OK raw/pwn30/index.adj (824127 B)
+SHA-256 OK raw/pwn30/index.adv (162816 B)
+model_claude_cs: <UI_WORKSPACE>\nura_lingua\..\data\..\model/sq_model_deshmi_cs.tsv (SHA-256 b2407d8d27d211fe8a16dc98e9ed7923267024f07061f052189b8157d4cc9de6)
+conceptnet_en: 478399 rreshta, 257018 nga OMCS/Verbosity/Wiktionary (WordNet, OpenCyc, DBpedia jashtë); 11591 skaje shqipe CS_ nga 12775 rreshta, sipas hartimit {"A1": 5791, "AB": 3192, "AB2": 1738, "B1": 870} (AB = dy ura të pajtuara, A1/B1 = një urë, i dobët; 2755 të dobëta me përkthimin e dëshmuar edhe nga leksiku i modelit); 5949 me dëshminë e modelit për treshen (model/sq_model_deshmi_cs.tsv: 6351 CONFIRM, 402 pa skaj përkatës; skaj i dyfishtë model_claude, witness=cs); HOLD {"dataset i përjashtuar": 221381, "fjalë pa përkthim": 80303, "frazë jashtë formave të lejuara": 96226, "koka dhe bishti e njëjta fjalë": 225, "përkthim i paqartë": 56577, "urat kundërshtohen": 10912}; sipas marrëdhënies {"CS_ANTONYM": 1199, "CS_AT_LOCATION": 2120, "CS_CAPABLE_OF": 1047, "CS_CAUSES": 534, "CS_CAUSES_DESIRE": 216, "CS_CREATED_BY": 54, "CS_DESIRES": 378, "CS_HAS_A": 317, "CS_HAS_FIRST_SUBEVENT": 107, "CS_HAS_LAST_SUBEVENT": 96, "CS_HAS_PREREQUISITE": 800, "CS_HAS_PROPERTY": 353, "CS_HAS_SUBEVENT": 738, "CS_IS_A": 1124, "CS_LOCATED_NEAR": 11, "CS_MADE_OF": 83, "CS_MANNER_OF": 1, "CS_MOTIVATED_BY": 272, "CS_NOT_CAPABLE_OF": 24, "CS_NOT_DESIRES": 219, "CS_NOT_HAS_PROPERTY": 19, "CS_PART_OF": 278, "CS_RECEIVES_ACTION": 145, "CS_USED_FOR": 1456}
+conceptnet_en: 5964 treshe të folshme (dy dëshmitarë: ConceptNet + dëshmia e modelit, ose ConceptNet nga dy grupe të dhënash me përkthim AB/AB2); sipas marrëdhënies {"CS_ANTONYM": 314, "CS_AT_LOCATION": 1152, "CS_CAPABLE_OF": 638, "CS_CAUSES": 309, "CS_CAUSES_DESIRE": 95, "CS_CREATED_BY": 30, "CS_DESIRES": 204, "CS_HAS_A": 227, "CS_HAS_FIRST_SUBEVENT": 47, "CS_HAS_LAST_SUBEVENT": 41, "CS_HAS_PREREQUISITE": 391, "CS_HAS_PROPERTY": 187, "CS_HAS_SUBEVENT": 343, "CS_IS_A": 598, "CS_LOCATED_NEAR": 7, "CS_MADE_OF": 64, "CS_MANNER_OF": 1, "CS_MOTIVATED_BY": 156, "CS_NOT_CAPABLE_OF": 14, "CS_NOT_DESIRES": 122, "CS_NOT_HAS_PROPERTY": 14, "CS_PART_OF": 193, "CS_RECEIVES_ACTION": 110, "CS_USED_FOR": 707}
+përkufizimet: 11086 fjalë me shpjegim shqip; 47934 lidhje DEF_MENTIONS drejt 4012 lemave; 31797 fjalë shpjegimi në HOLD (pa lemë të vetme të dëshmuar)
+MBULIMI: 94620 fjalë shqipe gjithsej; 18812 me të paktën një kuptim (AlbaNet, BabelNet ose Wiktionary); 51742 pa kuptim, por me lidhje fjale (sinonim, të kundërt, prejardhje, ConceptNet); 24066 vetëm me formë/gramatikë ose përdorim UD; 9848/138400 kuptime kanë lemë shqipe
+[nura_import] 305687 nyje, 954244 skaje, 202811 hyrje morfologjike → <UI_WORKSPACE>\nura_lingua\..\data\index\nura_graph.idx (29026 ms)
